@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '31E46D605694CCFF0BF6AB8000103C00'
-               BlueprintName = 'Pods-WheelOfMisfortune'
+               BlueprintIdentifier = '2692A60CA9509B2E2A543556E170DCB4'
+               BlueprintName = 'Koloda'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Pods-WheelOfMisfortune.framework'>
+               BuildableName = 'Koloda.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
