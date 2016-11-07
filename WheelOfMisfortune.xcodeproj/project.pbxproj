@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D129F3DB1DD0AB1800C4CF8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D129F3DA1DD0AB1800C4CF8D /* AppDelegate.swift */; };
+		D129F3DD1DD0AB1800C4CF8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D129F3DC1DD0AB1800C4CF8D /* ViewController.swift */; };
+		D129F3E01DD0AB1800C4CF8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D129F3DE1DD0AB1800C4CF8D /* Main.storyboard */; };
+		D129F3E21DD0AB1800C4CF8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D129F3E11DD0AB1800C4CF8D /* Assets.xcassets */; };
+		D129F3E51DD0AB1800C4CF8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D129F3E31DD0AB1800C4CF8D /* LaunchScreen.storyboard */; };
+		D129F3F21DD0AB5000C4CF8D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D129F3F01DD0AB5000C4CF8D /* Interface.storyboard */; };
+		D129F3F41DD0AB5000C4CF8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D129F3F31DD0AB5000C4CF8D /* Assets.xcassets */; };
+		D129F3FB1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D129F3FA1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D129F4021DD0AB5000C4CF8D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D129F4011DD0AB5000C4CF8D /* InterfaceController.swift */; };
+		D129F4041DD0AB5000C4CF8D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D129F4031DD0AB5000C4CF8D /* ExtensionDelegate.swift */; };
+		D129F4061DD0AB5000C4CF8D /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D129F4051DD0AB5000C4CF8D /* NotificationController.swift */; };
+		D129F4081DD0AB5000C4CF8D /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D129F4071DD0AB5000C4CF8D /* ComplicationController.swift */; };
+		D129F40A1DD0AB5000C4CF8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D129F4091DD0AB5000C4CF8D /* Assets.xcassets */; };
+		D129F40E1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D129F3EE1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch.app */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D129F3FC1DD0AB5000C4CF8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D129F3CF1DD0AB1800C4CF8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D129F3F91DD0AB5000C4CF8D;
+			remoteInfo = "WheelOfMisfortuneWatch Extension";
+		};
+		D129F40C1DD0AB5000C4CF8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D129F3CF1DD0AB1800C4CF8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D129F3ED1DD0AB5000C4CF8D;
+			remoteInfo = WheelOfMisfortuneWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D129F4121DD0AB5000C4CF8D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D129F3FB1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D129F4161DD0AB5000C4CF8D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D129F40E1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D129F3D71DD0AB1800C4CF8D /* WheelOfMisfortune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WheelOfMisfortune.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D129F3DA1DD0AB1800C4CF8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D129F3DC1DD0AB1800C4CF8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D129F3DF1DD0AB1800C4CF8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D129F3E11DD0AB1800C4CF8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D129F3E41DD0AB1800C4CF8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D129F3E61DD0AB1800C4CF8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D129F3EE1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WheelOfMisfortuneWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D129F3F11DD0AB5000C4CF8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D129F3F31DD0AB5000C4CF8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D129F3F51DD0AB5000C4CF8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D129F3FA1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WheelOfMisfortuneWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D129F4001DD0AB5000C4CF8D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		D129F4011DD0AB5000C4CF8D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		D129F4031DD0AB5000C4CF8D /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		D129F4051DD0AB5000C4CF8D /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		D129F4071DD0AB5000C4CF8D /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		D129F4091DD0AB5000C4CF8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D129F40B1DD0AB5000C4CF8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D129F3D41DD0AB1800C4CF8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D129F3F71DD0AB5000C4CF8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D129F3CE1DD0AB1800C4CF8D = {
+			isa = PBXGroup;
+			children = (
+				D129F3D91DD0AB1800C4CF8D /* WheelOfMisfortune */,
+				D129F3EF1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch */,
+				D129F3FE1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch Extension */,
+				D129F3D81DD0AB1800C4CF8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D129F3D81DD0AB1800C4CF8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D129F3D71DD0AB1800C4CF8D /* WheelOfMisfortune.app */,
+				D129F3EE1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch.app */,
+				D129F3FA1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D129F3D91DD0AB1800C4CF8D /* WheelOfMisfortune */ = {
+			isa = PBXGroup;
+			children = (
+				D129F3DA1DD0AB1800C4CF8D /* AppDelegate.swift */,
+				D129F3DC1DD0AB1800C4CF8D /* ViewController.swift */,
+				D129F3DE1DD0AB1800C4CF8D /* Main.storyboard */,
+				D129F3E11DD0AB1800C4CF8D /* Assets.xcassets */,
+				D129F3E31DD0AB1800C4CF8D /* LaunchScreen.storyboard */,
+				D129F3E61DD0AB1800C4CF8D /* Info.plist */,
+			);
+			path = WheelOfMisfortune;
+			sourceTree = "<group>";
+		};
+		D129F3EF1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch */ = {
+			isa = PBXGroup;
+			children = (
+				D129F3F01DD0AB5000C4CF8D /* Interface.storyboard */,
+				D129F3F31DD0AB5000C4CF8D /* Assets.xcassets */,
+				D129F3F51DD0AB5000C4CF8D /* Info.plist */,
+			);
+			path = WheelOfMisfortuneWatch;
+			sourceTree = "<group>";
+		};
+		D129F3FE1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D129F4011DD0AB5000C4CF8D /* InterfaceController.swift */,
+				D129F4031DD0AB5000C4CF8D /* ExtensionDelegate.swift */,
+				D129F4051DD0AB5000C4CF8D /* NotificationController.swift */,
+				D129F4071DD0AB5000C4CF8D /* ComplicationController.swift */,
+				D129F4091DD0AB5000C4CF8D /* Assets.xcassets */,
+				D129F40B1DD0AB5000C4CF8D /* Info.plist */,
+				D129F3FF1DD0AB5000C4CF8D /* Supporting Files */,
+			);
+			path = "WheelOfMisfortuneWatch Extension";
+			sourceTree = "<group>";
+		};
+		D129F3FF1DD0AB5000C4CF8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D129F4001DD0AB5000C4CF8D /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D129F3D61DD0AB1800C4CF8D /* WheelOfMisfortune */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D129F3E91DD0AB1800C4CF8D /* Build configuration list for PBXNativeTarget "WheelOfMisfortune" */;
+			buildPhases = (
+				D129F3D31DD0AB1800C4CF8D /* Sources */,
+				D129F3D41DD0AB1800C4CF8D /* Frameworks */,
+				D129F3D51DD0AB1800C4CF8D /* Resources */,
+				D129F4161DD0AB5000C4CF8D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D129F40D1DD0AB5000C4CF8D /* PBXTargetDependency */,
+			);
+			name = WheelOfMisfortune;
+			productName = WheelOfMisfortune;
+			productReference = D129F3D71DD0AB1800C4CF8D /* WheelOfMisfortune.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D129F3ED1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D129F4131DD0AB5000C4CF8D /* Build configuration list for PBXNativeTarget "WheelOfMisfortuneWatch" */;
+			buildPhases = (
+				D129F3EC1DD0AB5000C4CF8D /* Resources */,
+				D129F4121DD0AB5000C4CF8D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D129F3FD1DD0AB5000C4CF8D /* PBXTargetDependency */,
+			);
+			name = WheelOfMisfortuneWatch;
+			productName = WheelOfMisfortuneWatch;
+			productReference = D129F3EE1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D129F3F91DD0AB5000C4CF8D /* WheelOfMisfortuneWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D129F40F1DD0AB5000C4CF8D /* Build configuration list for PBXNativeTarget "WheelOfMisfortuneWatch Extension" */;
+			buildPhases = (
+				D129F3F61DD0AB5000C4CF8D /* Sources */,
+				D129F3F71DD0AB5000C4CF8D /* Frameworks */,
+				D129F3F81DD0AB5000C4CF8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WheelOfMisfortuneWatch Extension";
+			productName = "WheelOfMisfortuneWatch Extension";
+			productReference = D129F3FA1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D129F3CF1DD0AB1800C4CF8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "hananim-studios";
+				TargetAttributes = {
+					D129F3D61DD0AB1800C4CF8D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = FWD9V5VYJ2;
+						ProvisioningStyle = Automatic;
+					};
+					D129F3ED1DD0AB5000C4CF8D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = FWD9V5VYJ2;
+						ProvisioningStyle = Automatic;
+					};
+					D129F3F91DD0AB5000C4CF8D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = FWD9V5VYJ2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D129F3D21DD0AB1800C4CF8D /* Build configuration list for PBXProject "WheelOfMisfortune" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D129F3CE1DD0AB1800C4CF8D;
+			productRefGroup = D129F3D81DD0AB1800C4CF8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D129F3D61DD0AB1800C4CF8D /* WheelOfMisfortune */,
+				D129F3ED1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch */,
+				D129F3F91DD0AB5000C4CF8D /* WheelOfMisfortuneWatch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D129F3D51DD0AB1800C4CF8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D129F3E51DD0AB1800C4CF8D /* LaunchScreen.storyboard in Resources */,
+				D129F3E21DD0AB1800C4CF8D /* Assets.xcassets in Resources */,
+				D129F3E01DD0AB1800C4CF8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D129F3EC1DD0AB5000C4CF8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D129F3F41DD0AB5000C4CF8D /* Assets.xcassets in Resources */,
+				D129F3F21DD0AB5000C4CF8D /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D129F3F81DD0AB5000C4CF8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D129F40A1DD0AB5000C4CF8D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D129F3D31DD0AB1800C4CF8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D129F3DD1DD0AB1800C4CF8D /* ViewController.swift in Sources */,
+				D129F3DB1DD0AB1800C4CF8D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D129F3F61DD0AB5000C4CF8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D129F4061DD0AB5000C4CF8D /* NotificationController.swift in Sources */,
+				D129F4081DD0AB5000C4CF8D /* ComplicationController.swift in Sources */,
+				D129F4041DD0AB5000C4CF8D /* ExtensionDelegate.swift in Sources */,
+				D129F4021DD0AB5000C4CF8D /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D129F3FD1DD0AB5000C4CF8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D129F3F91DD0AB5000C4CF8D /* WheelOfMisfortuneWatch Extension */;
+			targetProxy = D129F3FC1DD0AB5000C4CF8D /* PBXContainerItemProxy */;
+		};
+		D129F40D1DD0AB5000C4CF8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D129F3ED1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch */;
+			targetProxy = D129F40C1DD0AB5000C4CF8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D129F3DE1DD0AB1800C4CF8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D129F3DF1DD0AB1800C4CF8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D129F3E31DD0AB1800C4CF8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D129F3E41DD0AB1800C4CF8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D129F3F01DD0AB5000C4CF8D /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D129F3F11DD0AB5000C4CF8D /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D129F3E71DD0AB1800C4CF8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D129F3E81DD0AB1800C4CF8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D129F3EA1DD0AB1800C4CF8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FWD9V5VYJ2;
+				INFOPLIST_FILE = WheelOfMisfortune/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hananim-studios.WheelOfMisfortune";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D129F3EB1DD0AB1800C4CF8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FWD9V5VYJ2;
+				INFOPLIST_FILE = WheelOfMisfortune/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hananim-studios.WheelOfMisfortune";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D129F4101DD0AB5000C4CF8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = FWD9V5VYJ2;
+				INFOPLIST_FILE = "WheelOfMisfortuneWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hananim-studios.WheelOfMisfortune.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		D129F4111DD0AB5000C4CF8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = FWD9V5VYJ2;
+				INFOPLIST_FILE = "WheelOfMisfortuneWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hananim-studios.WheelOfMisfortune.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		D129F4141DD0AB5000C4CF8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FWD9V5VYJ2;
+				IBSC_MODULE = WheelOfMisfortuneWatch_Extension;
+				INFOPLIST_FILE = WheelOfMisfortuneWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hananim-studios.WheelOfMisfortune.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		D129F4151DD0AB5000C4CF8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FWD9V5VYJ2;
+				IBSC_MODULE = WheelOfMisfortuneWatch_Extension;
+				INFOPLIST_FILE = WheelOfMisfortuneWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hananim-studios.WheelOfMisfortune.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D129F3D21DD0AB1800C4CF8D /* Build configuration list for PBXProject "WheelOfMisfortune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D129F3E71DD0AB1800C4CF8D /* Debug */,
+				D129F3E81DD0AB1800C4CF8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D129F3E91DD0AB1800C4CF8D /* Build configuration list for PBXNativeTarget "WheelOfMisfortune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D129F3EA1DD0AB1800C4CF8D /* Debug */,
+				D129F3EB1DD0AB1800C4CF8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D129F40F1DD0AB5000C4CF8D /* Build configuration list for PBXNativeTarget "WheelOfMisfortuneWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D129F4101DD0AB5000C4CF8D /* Debug */,
+				D129F4111DD0AB5000C4CF8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D129F4131DD0AB5000C4CF8D /* Build configuration list for PBXNativeTarget "WheelOfMisfortuneWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D129F4141DD0AB5000C4CF8D /* Debug */,
+				D129F4151DD0AB5000C4CF8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D129F3CF1DD0AB1800C4CF8D /* Project object */;
+}
