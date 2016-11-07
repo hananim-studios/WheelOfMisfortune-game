@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '5ADA3A64F74A213EFC4B64B311239177'
-               BlueprintName = 'Pods-WheelOfMisfortune'
+               BlueprintIdentifier = 'C660AD4172CC6899D4A3E95BFFA16A6E'
+               BlueprintName = 'SwiftyJSON'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Pods-WheelOfMisfortune.framework'>
+               BuildableName = 'SwiftyJSON.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

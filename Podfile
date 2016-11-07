@@ -6,6 +6,7 @@ target 'WheelOfMisfortune' do
   use_frameworks!
 
   # Pods for WheelOfMisfortune
+  pod 'SwiftyJSON'
   pod 'Koloda', '~> 3.1.2'
 
 end
