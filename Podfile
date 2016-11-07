@@ -6,7 +6,6 @@ target 'WheelOfMisfortune' do
   use_frameworks!
 
   # Pods for WheelOfMisfortune
-  pod 'Koloda', '~> 3.1.2'
 
 end
 
