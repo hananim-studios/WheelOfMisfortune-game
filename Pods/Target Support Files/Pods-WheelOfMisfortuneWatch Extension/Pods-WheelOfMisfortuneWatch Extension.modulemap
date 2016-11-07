@@ -1,0 +1,6 @@
+framework module Pods_WheelOfMisfortuneWatch_Extension {
+  umbrella header "Pods-WheelOfMisfortuneWatch Extension-umbrella.h"
+
+  export *
+  module * { export * }
+}

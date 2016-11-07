@@ -1,598 +1,1646 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		D129F3DB1DD0AB1800C4CF8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D129F3DA1DD0AB1800C4CF8D /* AppDelegate.swift */; };
-		D129F3DD1DD0AB1800C4CF8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D129F3DC1DD0AB1800C4CF8D /* ViewController.swift */; };
-		D129F3E01DD0AB1800C4CF8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D129F3DE1DD0AB1800C4CF8D /* Main.storyboard */; };
-		D129F3E21DD0AB1800C4CF8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D129F3E11DD0AB1800C4CF8D /* Assets.xcassets */; };
-		D129F3E51DD0AB1800C4CF8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D129F3E31DD0AB1800C4CF8D /* LaunchScreen.storyboard */; };
-		D129F3F21DD0AB5000C4CF8D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D129F3F01DD0AB5000C4CF8D /* Interface.storyboard */; };
-		D129F3F41DD0AB5000C4CF8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D129F3F31DD0AB5000C4CF8D /* Assets.xcassets */; };
-		D129F3FB1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D129F3FA1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		D129F4021DD0AB5000C4CF8D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D129F4011DD0AB5000C4CF8D /* InterfaceController.swift */; };
-		D129F4041DD0AB5000C4CF8D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D129F4031DD0AB5000C4CF8D /* ExtensionDelegate.swift */; };
-		D129F4061DD0AB5000C4CF8D /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D129F4051DD0AB5000C4CF8D /* NotificationController.swift */; };
-		D129F4081DD0AB5000C4CF8D /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D129F4071DD0AB5000C4CF8D /* ComplicationController.swift */; };
-		D129F40A1DD0AB5000C4CF8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D129F4091DD0AB5000C4CF8D /* Assets.xcassets */; };
-		D129F40E1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D129F3EE1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch.app */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D129F3FC1DD0AB5000C4CF8D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D129F3CF1DD0AB1800C4CF8D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D129F3F91DD0AB5000C4CF8D;
-			remoteInfo = "WheelOfMisfortuneWatch Extension";
-		};
-		D129F40C1DD0AB5000C4CF8D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D129F3CF1DD0AB1800C4CF8D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D129F3ED1DD0AB5000C4CF8D;
-			remoteInfo = WheelOfMisfortuneWatch;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		D129F4121DD0AB5000C4CF8D /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				D129F3FB1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch Extension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D129F4161DD0AB5000C4CF8D /* Embed Watch Content */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
-			dstSubfolderSpec = 16;
-			files = (
-				D129F40E1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch.app in Embed Watch Content */,
-			);
-			name = "Embed Watch Content";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
-/* Begin PBXFileReference section */
-		D129F3D71DD0AB1800C4CF8D /* WheelOfMisfortune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WheelOfMisfortune.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D129F3DA1DD0AB1800C4CF8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D129F3DC1DD0AB1800C4CF8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D129F3DF1DD0AB1800C4CF8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D129F3E11DD0AB1800C4CF8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D129F3E41DD0AB1800C4CF8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D129F3E61DD0AB1800C4CF8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D129F3EE1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WheelOfMisfortuneWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D129F3F11DD0AB5000C4CF8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		D129F3F31DD0AB5000C4CF8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D129F3F51DD0AB5000C4CF8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D129F3FA1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WheelOfMisfortuneWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D129F4001DD0AB5000C4CF8D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		D129F4011DD0AB5000C4CF8D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
-		D129F4031DD0AB5000C4CF8D /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		D129F4051DD0AB5000C4CF8D /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
-		D129F4071DD0AB5000C4CF8D /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
-		D129F4091DD0AB5000C4CF8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D129F40B1DD0AB5000C4CF8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		D129F3D41DD0AB1800C4CF8D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D129F3F71DD0AB5000C4CF8D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		D129F3CE1DD0AB1800C4CF8D = {
-			isa = PBXGroup;
-			children = (
-				D129F3D91DD0AB1800C4CF8D /* WheelOfMisfortune */,
-				D129F3EF1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch */,
-				D129F3FE1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch Extension */,
-				D129F3D81DD0AB1800C4CF8D /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		D129F3D81DD0AB1800C4CF8D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D129F3D71DD0AB1800C4CF8D /* WheelOfMisfortune.app */,
-				D129F3EE1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch.app */,
-				D129F3FA1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch Extension.appex */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D129F3D91DD0AB1800C4CF8D /* WheelOfMisfortune */ = {
-			isa = PBXGroup;
-			children = (
-				D129F3DA1DD0AB1800C4CF8D /* AppDelegate.swift */,
-				D129F3DC1DD0AB1800C4CF8D /* ViewController.swift */,
-				D129F3DE1DD0AB1800C4CF8D /* Main.storyboard */,
-				D129F3E11DD0AB1800C4CF8D /* Assets.xcassets */,
-				D129F3E31DD0AB1800C4CF8D /* LaunchScreen.storyboard */,
-				D129F3E61DD0AB1800C4CF8D /* Info.plist */,
-			);
-			path = WheelOfMisfortune;
-			sourceTree = "<group>";
-		};
-		D129F3EF1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch */ = {
-			isa = PBXGroup;
-			children = (
-				D129F3F01DD0AB5000C4CF8D /* Interface.storyboard */,
-				D129F3F31DD0AB5000C4CF8D /* Assets.xcassets */,
-				D129F3F51DD0AB5000C4CF8D /* Info.plist */,
-			);
-			path = WheelOfMisfortuneWatch;
-			sourceTree = "<group>";
-		};
-		D129F3FE1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch Extension */ = {
-			isa = PBXGroup;
-			children = (
-				D129F4011DD0AB5000C4CF8D /* InterfaceController.swift */,
-				D129F4031DD0AB5000C4CF8D /* ExtensionDelegate.swift */,
-				D129F4051DD0AB5000C4CF8D /* NotificationController.swift */,
-				D129F4071DD0AB5000C4CF8D /* ComplicationController.swift */,
-				D129F4091DD0AB5000C4CF8D /* Assets.xcassets */,
-				D129F40B1DD0AB5000C4CF8D /* Info.plist */,
-				D129F3FF1DD0AB5000C4CF8D /* Supporting Files */,
-			);
-			path = "WheelOfMisfortuneWatch Extension";
-			sourceTree = "<group>";
-		};
-		D129F3FF1DD0AB5000C4CF8D /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D129F4001DD0AB5000C4CF8D /* PushNotificationPayload.apns */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		D129F3D61DD0AB1800C4CF8D /* WheelOfMisfortune */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D129F3E91DD0AB1800C4CF8D /* Build configuration list for PBXNativeTarget "WheelOfMisfortune" */;
-			buildPhases = (
-				D129F3D31DD0AB1800C4CF8D /* Sources */,
-				D129F3D41DD0AB1800C4CF8D /* Frameworks */,
-				D129F3D51DD0AB1800C4CF8D /* Resources */,
-				D129F4161DD0AB5000C4CF8D /* Embed Watch Content */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D129F40D1DD0AB5000C4CF8D /* PBXTargetDependency */,
-			);
-			name = WheelOfMisfortune;
-			productName = WheelOfMisfortune;
-			productReference = D129F3D71DD0AB1800C4CF8D /* WheelOfMisfortune.app */;
-			productType = "com.apple.product-type.application";
-		};
-		D129F3ED1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D129F4131DD0AB5000C4CF8D /* Build configuration list for PBXNativeTarget "WheelOfMisfortuneWatch" */;
-			buildPhases = (
-				D129F3EC1DD0AB5000C4CF8D /* Resources */,
-				D129F4121DD0AB5000C4CF8D /* Embed App Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D129F3FD1DD0AB5000C4CF8D /* PBXTargetDependency */,
-			);
-			name = WheelOfMisfortuneWatch;
-			productName = WheelOfMisfortuneWatch;
-			productReference = D129F3EE1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch.app */;
-			productType = "com.apple.product-type.application.watchapp2";
-		};
-		D129F3F91DD0AB5000C4CF8D /* WheelOfMisfortuneWatch Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D129F40F1DD0AB5000C4CF8D /* Build configuration list for PBXNativeTarget "WheelOfMisfortuneWatch Extension" */;
-			buildPhases = (
-				D129F3F61DD0AB5000C4CF8D /* Sources */,
-				D129F3F71DD0AB5000C4CF8D /* Frameworks */,
-				D129F3F81DD0AB5000C4CF8D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "WheelOfMisfortuneWatch Extension";
-			productName = "WheelOfMisfortuneWatch Extension";
-			productReference = D129F3FA1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch Extension.appex */;
-			productType = "com.apple.product-type.watchkit2-extension";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		D129F3CF1DD0AB1800C4CF8D /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
-				ORGANIZATIONNAME = "hananim-studios";
-				TargetAttributes = {
-					D129F3D61DD0AB1800C4CF8D = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = FWD9V5VYJ2;
-						ProvisioningStyle = Automatic;
-					};
-					D129F3ED1DD0AB5000C4CF8D = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = FWD9V5VYJ2;
-						ProvisioningStyle = Automatic;
-					};
-					D129F3F91DD0AB5000C4CF8D = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = FWD9V5VYJ2;
-						ProvisioningStyle = Automatic;
-					};
-				};
-			};
-			buildConfigurationList = D129F3D21DD0AB1800C4CF8D /* Build configuration list for PBXProject "WheelOfMisfortune" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = D129F3CE1DD0AB1800C4CF8D;
-			productRefGroup = D129F3D81DD0AB1800C4CF8D /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				D129F3D61DD0AB1800C4CF8D /* WheelOfMisfortune */,
-				D129F3ED1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch */,
-				D129F3F91DD0AB5000C4CF8D /* WheelOfMisfortuneWatch Extension */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		D129F3D51DD0AB1800C4CF8D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D129F3E51DD0AB1800C4CF8D /* LaunchScreen.storyboard in Resources */,
-				D129F3E21DD0AB1800C4CF8D /* Assets.xcassets in Resources */,
-				D129F3E01DD0AB1800C4CF8D /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D129F3EC1DD0AB5000C4CF8D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D129F3F41DD0AB5000C4CF8D /* Assets.xcassets in Resources */,
-				D129F3F21DD0AB5000C4CF8D /* Interface.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D129F3F81DD0AB5000C4CF8D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D129F40A1DD0AB5000C4CF8D /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		D129F3D31DD0AB1800C4CF8D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D129F3DD1DD0AB1800C4CF8D /* ViewController.swift in Sources */,
-				D129F3DB1DD0AB1800C4CF8D /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D129F3F61DD0AB5000C4CF8D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D129F4061DD0AB5000C4CF8D /* NotificationController.swift in Sources */,
-				D129F4081DD0AB5000C4CF8D /* ComplicationController.swift in Sources */,
-				D129F4041DD0AB5000C4CF8D /* ExtensionDelegate.swift in Sources */,
-				D129F4021DD0AB5000C4CF8D /* InterfaceController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D129F3FD1DD0AB5000C4CF8D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D129F3F91DD0AB5000C4CF8D /* WheelOfMisfortuneWatch Extension */;
-			targetProxy = D129F3FC1DD0AB5000C4CF8D /* PBXContainerItemProxy */;
-		};
-		D129F40D1DD0AB5000C4CF8D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D129F3ED1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch */;
-			targetProxy = D129F40C1DD0AB5000C4CF8D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D129F3DE1DD0AB1800C4CF8D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D129F3DF1DD0AB1800C4CF8D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D129F3E31DD0AB1800C4CF8D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D129F3E41DD0AB1800C4CF8D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		D129F3F01DD0AB5000C4CF8D /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D129F3F11DD0AB5000C4CF8D /* Base */,
-			);
-			name = Interface.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		D129F3E71DD0AB1800C4CF8D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		D129F3E81DD0AB1800C4CF8D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		D129F3EA1DD0AB1800C4CF8D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = FWD9V5VYJ2;
-				INFOPLIST_FILE = WheelOfMisfortune/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hananim-studios.WheelOfMisfortune";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		D129F3EB1DD0AB1800C4CF8D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = FWD9V5VYJ2;
-				INFOPLIST_FILE = WheelOfMisfortune/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hananim-studios.WheelOfMisfortune";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		D129F4101DD0AB5000C4CF8D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				DEVELOPMENT_TEAM = FWD9V5VYJ2;
-				INFOPLIST_FILE = "WheelOfMisfortuneWatch Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hananim-studios.WheelOfMisfortune.watchkitapp.watchkitextension";
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-			};
-			name = Debug;
-		};
-		D129F4111DD0AB5000C4CF8D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				DEVELOPMENT_TEAM = FWD9V5VYJ2;
-				INFOPLIST_FILE = "WheelOfMisfortuneWatch Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hananim-studios.WheelOfMisfortune.watchkitapp.watchkitextension";
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-			};
-			name = Release;
-		};
-		D129F4141DD0AB5000C4CF8D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = FWD9V5VYJ2;
-				IBSC_MODULE = WheelOfMisfortuneWatch_Extension;
-				INFOPLIST_FILE = WheelOfMisfortuneWatch/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hananim-studios.WheelOfMisfortune.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-			};
-			name = Debug;
-		};
-		D129F4151DD0AB5000C4CF8D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = FWD9V5VYJ2;
-				IBSC_MODULE = WheelOfMisfortuneWatch_Extension;
-				INFOPLIST_FILE = WheelOfMisfortuneWatch/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hananim-studios.WheelOfMisfortune.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		D129F3D21DD0AB1800C4CF8D /* Build configuration list for PBXProject "WheelOfMisfortune" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D129F3E71DD0AB1800C4CF8D /* Debug */,
-				D129F3E81DD0AB1800C4CF8D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D129F3E91DD0AB1800C4CF8D /* Build configuration list for PBXNativeTarget "WheelOfMisfortune" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D129F3EA1DD0AB1800C4CF8D /* Debug */,
-				D129F3EB1DD0AB1800C4CF8D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		D129F40F1DD0AB5000C4CF8D /* Build configuration list for PBXNativeTarget "WheelOfMisfortuneWatch Extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D129F4101DD0AB5000C4CF8D /* Debug */,
-				D129F4111DD0AB5000C4CF8D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		D129F4131DD0AB5000C4CF8D /* Build configuration list for PBXNativeTarget "WheelOfMisfortuneWatch" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D129F4141DD0AB5000C4CF8D /* Debug */,
-				D129F4151DD0AB5000C4CF8D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = D129F3CF1DD0AB1800C4CF8D /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>08DEDE42795EF56EF9454090</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-WheelOfMisfortune.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-WheelOfMisfortune/Pods-WheelOfMisfortune.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>18E131E060E7CF9FE0451735</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>B50D85416B9884D993C44857</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>29B6E2EA81F6D674AC402E8A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-WheelOfMisfortune.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-WheelOfMisfortune/Pods-WheelOfMisfortune.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3A33A16B85CE06A720B62E9E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>44285EB72BA48827562D468F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3EFB289BA17D558F37ED6ABB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-WheelOfMisfortuneWatch Extension.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-WheelOfMisfortuneWatch Extension/Pods-WheelOfMisfortuneWatch Extension.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>44285EB72BA48827562D468F</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods_WheelOfMisfortune.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>448FE7620FBB5C08BFD6FF5A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-WheelOfMisfortuneWatch Extension.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-WheelOfMisfortuneWatch Extension/Pods-WheelOfMisfortuneWatch Extension.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4BD88D773C937F62E98FCD85</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>08DEDE42795EF56EF9454090</string>
+				<string>29B6E2EA81F6D674AC402E8A</string>
+				<string>EEAE8E38CC976236E2C9FDEB</string>
+				<string>A9AAD63AE785D8DDF45CC81E</string>
+				<string>448FE7620FBB5C08BFD6FF5A</string>
+				<string>3EFB289BA17D558F37ED6ABB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>540215866D31597E0752F63F</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>5D47E654CEDA65225D32EAD8</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-WheelOfMisfortuneWatch/Pods-WheelOfMisfortuneWatch-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>6C669A22D0ED3675C7E45077</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>8A60817218C781477C10ADC1</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods_WheelOfMisfortuneWatch.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>A0E1E4FA4853774DA9C0FEEE</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-WheelOfMisfortune/Pods-WheelOfMisfortune-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>A6CDEB3EAE80E5FB490E85F9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B51EAB081B2C093AB6869E33</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A9AAD63AE785D8DDF45CC81E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-WheelOfMisfortuneWatch.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-WheelOfMisfortuneWatch/Pods-WheelOfMisfortuneWatch.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B50D85416B9884D993C44857</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8A60817218C781477C10ADC1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B51EAB081B2C093AB6869E33</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods_WheelOfMisfortuneWatch_Extension.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>D129F3CE1DD0AB1800C4CF8D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D129F3D91DD0AB1800C4CF8D</string>
+				<string>D129F3EF1DD0AB5000C4CF8D</string>
+				<string>D129F3FE1DD0AB5000C4CF8D</string>
+				<string>D129F3D81DD0AB1800C4CF8D</string>
+				<string>4BD88D773C937F62E98FCD85</string>
+				<string>E87CEBAC02F19360BC73CA4C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D129F3CF1DD0AB1800C4CF8D</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastSwiftUpdateCheck</key>
+				<string>0800</string>
+				<key>LastUpgradeCheck</key>
+				<string>0800</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>hananim-studios</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>D129F3D61DD0AB1800C4CF8D</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>8.0</string>
+						<key>DevelopmentTeam</key>
+						<string>FWD9V5VYJ2</string>
+						<key>ProvisioningStyle</key>
+						<string>Automatic</string>
+					</dict>
+					<key>D129F3ED1DD0AB5000C4CF8D</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>8.0</string>
+						<key>DevelopmentTeam</key>
+						<string>FWD9V5VYJ2</string>
+						<key>ProvisioningStyle</key>
+						<string>Automatic</string>
+					</dict>
+					<key>D129F3F91DD0AB5000C4CF8D</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>8.0</string>
+						<key>DevelopmentTeam</key>
+						<string>FWD9V5VYJ2</string>
+						<key>ProvisioningStyle</key>
+						<string>Automatic</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>D129F3D21DD0AB1800C4CF8D</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>D129F3CE1DD0AB1800C4CF8D</string>
+			<key>productRefGroup</key>
+			<string>D129F3D81DD0AB1800C4CF8D</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>D129F3D61DD0AB1800C4CF8D</string>
+				<string>D129F3ED1DD0AB5000C4CF8D</string>
+				<string>D129F3F91DD0AB5000C4CF8D</string>
+			</array>
+		</dict>
+		<key>D129F3D21DD0AB1800C4CF8D</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>D129F3E71DD0AB1800C4CF8D</string>
+				<string>D129F3E81DD0AB1800C4CF8D</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>D129F3D31DD0AB1800C4CF8D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>D129F3DD1DD0AB1800C4CF8D</string>
+				<string>D129F3DB1DD0AB1800C4CF8D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>D129F3D41DD0AB1800C4CF8D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>3A33A16B85CE06A720B62E9E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>D129F3D51DD0AB1800C4CF8D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>D129F3E51DD0AB1800C4CF8D</string>
+				<string>D129F3E21DD0AB1800C4CF8D</string>
+				<string>D129F3E01DD0AB1800C4CF8D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>D129F3D61DD0AB1800C4CF8D</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>D129F3E91DD0AB1800C4CF8D</string>
+			<key>buildPhases</key>
+			<array>
+				<string>E5A78FF135DAA030BDF86C7E</string>
+				<string>D129F3D31DD0AB1800C4CF8D</string>
+				<string>D129F3D41DD0AB1800C4CF8D</string>
+				<string>D129F3D51DD0AB1800C4CF8D</string>
+				<string>D129F4161DD0AB5000C4CF8D</string>
+				<string>E78AE1CB6627230B07A99CC6</string>
+				<string>A0E1E4FA4853774DA9C0FEEE</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>D129F40D1DD0AB5000C4CF8D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>WheelOfMisfortune</string>
+			<key>productName</key>
+			<string>WheelOfMisfortune</string>
+			<key>productReference</key>
+			<string>D129F3D71DD0AB1800C4CF8D</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>D129F3D71DD0AB1800C4CF8D</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>WheelOfMisfortune.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>D129F3D81DD0AB1800C4CF8D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D129F3D71DD0AB1800C4CF8D</string>
+				<string>D129F3EE1DD0AB5000C4CF8D</string>
+				<string>D129F3FA1DD0AB5000C4CF8D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D129F3D91DD0AB1800C4CF8D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D129F3DA1DD0AB1800C4CF8D</string>
+				<string>D129F3DC1DD0AB1800C4CF8D</string>
+				<string>D129F3DE1DD0AB1800C4CF8D</string>
+				<string>D129F3E11DD0AB1800C4CF8D</string>
+				<string>D129F3E31DD0AB1800C4CF8D</string>
+				<string>D129F3E61DD0AB1800C4CF8D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>WheelOfMisfortune</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D129F3DA1DD0AB1800C4CF8D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>AppDelegate.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D129F3DB1DD0AB1800C4CF8D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D129F3DA1DD0AB1800C4CF8D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D129F3DC1DD0AB1800C4CF8D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>ViewController.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D129F3DD1DD0AB1800C4CF8D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D129F3DC1DD0AB1800C4CF8D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D129F3DE1DD0AB1800C4CF8D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D129F3DF1DD0AB1800C4CF8D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D129F3DF1DD0AB1800C4CF8D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D129F3E01DD0AB1800C4CF8D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D129F3DE1DD0AB1800C4CF8D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D129F3E11DD0AB1800C4CF8D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Assets.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D129F3E21DD0AB1800C4CF8D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D129F3E11DD0AB1800C4CF8D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D129F3E31DD0AB1800C4CF8D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D129F3E41DD0AB1800C4CF8D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D129F3E41DD0AB1800C4CF8D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D129F3E51DD0AB1800C4CF8D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D129F3E31DD0AB1800C4CF8D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D129F3E61DD0AB1800C4CF8D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D129F3E71DD0AB1800C4CF8D</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INFINITE_RECURSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_SUSPICIOUS_MOVES</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>ENABLE_TESTABILITY</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>10.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SWIFT_ACTIVE_COMPILATION_CONDITIONS</key>
+				<string>DEBUG</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>D129F3E81DD0AB1800C4CF8D</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INFINITE_RECURSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_SUSPICIOUS_MOVES</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>10.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Owholemodule</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>D129F3E91DD0AB1800C4CF8D</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>D129F3EA1DD0AB1800C4CF8D</string>
+				<string>D129F3EB1DD0AB1800C4CF8D</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>D129F3EA1DD0AB1800C4CF8D</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>08DEDE42795EF56EF9454090</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>FWD9V5VYJ2</string>
+				<key>INFOPLIST_FILE</key>
+				<string>WheelOfMisfortune/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.hananim-studios.WheelOfMisfortune</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>D129F3EB1DD0AB1800C4CF8D</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>29B6E2EA81F6D674AC402E8A</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>FWD9V5VYJ2</string>
+				<key>INFOPLIST_FILE</key>
+				<string>WheelOfMisfortune/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.hananim-studios.WheelOfMisfortune</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>D129F3EC1DD0AB5000C4CF8D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>D129F3F41DD0AB5000C4CF8D</string>
+				<string>D129F3F21DD0AB5000C4CF8D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>D129F3ED1DD0AB5000C4CF8D</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>D129F4131DD0AB5000C4CF8D</string>
+			<key>buildPhases</key>
+			<array>
+				<string>6C669A22D0ED3675C7E45077</string>
+				<string>D129F3EC1DD0AB5000C4CF8D</string>
+				<string>D129F4121DD0AB5000C4CF8D</string>
+				<string>18E131E060E7CF9FE0451735</string>
+				<string>5D47E654CEDA65225D32EAD8</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>D129F3FD1DD0AB5000C4CF8D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>WheelOfMisfortuneWatch</string>
+			<key>productName</key>
+			<string>WheelOfMisfortuneWatch</string>
+			<key>productReference</key>
+			<string>D129F3EE1DD0AB5000C4CF8D</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application.watchapp2</string>
+		</dict>
+		<key>D129F3EE1DD0AB5000C4CF8D</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>WheelOfMisfortuneWatch.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>D129F3EF1DD0AB5000C4CF8D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D129F3F01DD0AB5000C4CF8D</string>
+				<string>D129F3F31DD0AB5000C4CF8D</string>
+				<string>D129F3F51DD0AB5000C4CF8D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>WheelOfMisfortuneWatch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D129F3F01DD0AB5000C4CF8D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D129F3F11DD0AB5000C4CF8D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Interface.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D129F3F11DD0AB5000C4CF8D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Interface.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D129F3F21DD0AB5000C4CF8D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D129F3F01DD0AB5000C4CF8D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D129F3F31DD0AB5000C4CF8D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Assets.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D129F3F41DD0AB5000C4CF8D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D129F3F31DD0AB5000C4CF8D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D129F3F51DD0AB5000C4CF8D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D129F3F61DD0AB5000C4CF8D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>D129F4061DD0AB5000C4CF8D</string>
+				<string>D129F4081DD0AB5000C4CF8D</string>
+				<string>D129F4041DD0AB5000C4CF8D</string>
+				<string>D129F4021DD0AB5000C4CF8D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>D129F3F71DD0AB5000C4CF8D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>A6CDEB3EAE80E5FB490E85F9</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>D129F3F81DD0AB5000C4CF8D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>D129F40A1DD0AB5000C4CF8D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>D129F3F91DD0AB5000C4CF8D</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>D129F40F1DD0AB5000C4CF8D</string>
+			<key>buildPhases</key>
+			<array>
+				<string>540215866D31597E0752F63F</string>
+				<string>D129F3F61DD0AB5000C4CF8D</string>
+				<string>D129F3F71DD0AB5000C4CF8D</string>
+				<string>D129F3F81DD0AB5000C4CF8D</string>
+				<string>E47BBEAC44EB8721219E2C5A</string>
+				<string>FA88A1EE14D1A93651746DDA</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>WheelOfMisfortuneWatch Extension</string>
+			<key>productName</key>
+			<string>WheelOfMisfortuneWatch Extension</string>
+			<key>productReference</key>
+			<string>D129F3FA1DD0AB5000C4CF8D</string>
+			<key>productType</key>
+			<string>com.apple.product-type.watchkit2-extension</string>
+		</dict>
+		<key>D129F3FA1DD0AB5000C4CF8D</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.app-extension</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>WheelOfMisfortuneWatch Extension.appex</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>D129F3FB1DD0AB5000C4CF8D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D129F3FA1DD0AB5000C4CF8D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>RemoveHeadersOnCopy</string>
+				</array>
+			</dict>
+		</dict>
+		<key>D129F3FC1DD0AB5000C4CF8D</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D129F3CF1DD0AB1800C4CF8D</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>D129F3F91DD0AB5000C4CF8D</string>
+			<key>remoteInfo</key>
+			<string>WheelOfMisfortuneWatch Extension</string>
+		</dict>
+		<key>D129F3FD1DD0AB5000C4CF8D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>D129F3F91DD0AB5000C4CF8D</string>
+			<key>targetProxy</key>
+			<string>D129F3FC1DD0AB5000C4CF8D</string>
+		</dict>
+		<key>D129F3FE1DD0AB5000C4CF8D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D129F4011DD0AB5000C4CF8D</string>
+				<string>D129F4031DD0AB5000C4CF8D</string>
+				<string>D129F4051DD0AB5000C4CF8D</string>
+				<string>D129F4071DD0AB5000C4CF8D</string>
+				<string>D129F4091DD0AB5000C4CF8D</string>
+				<string>D129F40B1DD0AB5000C4CF8D</string>
+				<string>D129F3FF1DD0AB5000C4CF8D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>WheelOfMisfortuneWatch Extension</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D129F3FF1DD0AB5000C4CF8D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D129F4001DD0AB5000C4CF8D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D129F4001DD0AB5000C4CF8D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>PushNotificationPayload.apns</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D129F4011DD0AB5000C4CF8D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>InterfaceController.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D129F4021DD0AB5000C4CF8D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D129F4011DD0AB5000C4CF8D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D129F4031DD0AB5000C4CF8D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>ExtensionDelegate.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D129F4041DD0AB5000C4CF8D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D129F4031DD0AB5000C4CF8D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D129F4051DD0AB5000C4CF8D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>NotificationController.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D129F4061DD0AB5000C4CF8D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D129F4051DD0AB5000C4CF8D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D129F4071DD0AB5000C4CF8D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>ComplicationController.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D129F4081DD0AB5000C4CF8D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D129F4071DD0AB5000C4CF8D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D129F4091DD0AB5000C4CF8D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Assets.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D129F40A1DD0AB5000C4CF8D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D129F4091DD0AB5000C4CF8D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D129F40B1DD0AB5000C4CF8D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D129F40C1DD0AB5000C4CF8D</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D129F3CF1DD0AB1800C4CF8D</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>D129F3ED1DD0AB5000C4CF8D</string>
+			<key>remoteInfo</key>
+			<string>WheelOfMisfortuneWatch</string>
+		</dict>
+		<key>D129F40D1DD0AB5000C4CF8D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>D129F3ED1DD0AB5000C4CF8D</string>
+			<key>targetProxy</key>
+			<string>D129F40C1DD0AB5000C4CF8D</string>
+		</dict>
+		<key>D129F40E1DD0AB5000C4CF8D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D129F3EE1DD0AB5000C4CF8D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D129F40F1DD0AB5000C4CF8D</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>D129F4101DD0AB5000C4CF8D</string>
+				<string>D129F4111DD0AB5000C4CF8D</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>D129F4101DD0AB5000C4CF8D</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>448FE7620FBB5C08BFD6FF5A</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_COMPLICATION_NAME</key>
+				<string>Complication</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>FWD9V5VYJ2</string>
+				<key>INFOPLIST_FILE</key>
+				<string>WheelOfMisfortuneWatch Extension/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.hananim-studios.WheelOfMisfortune.watchkitapp.watchkitextension</string>
+				<key>PRODUCT_NAME</key>
+				<string>${TARGET_NAME}</string>
+				<key>SDKROOT</key>
+				<string>watchos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>4</string>
+				<key>WATCHOS_DEPLOYMENT_TARGET</key>
+				<string>3.0</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>D129F4111DD0AB5000C4CF8D</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>3EFB289BA17D558F37ED6ABB</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_COMPLICATION_NAME</key>
+				<string>Complication</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>FWD9V5VYJ2</string>
+				<key>INFOPLIST_FILE</key>
+				<string>WheelOfMisfortuneWatch Extension/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.hananim-studios.WheelOfMisfortune.watchkitapp.watchkitextension</string>
+				<key>PRODUCT_NAME</key>
+				<string>${TARGET_NAME}</string>
+				<key>SDKROOT</key>
+				<string>watchos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>4</string>
+				<key>WATCHOS_DEPLOYMENT_TARGET</key>
+				<string>3.0</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>D129F4121DD0AB5000C4CF8D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>dstPath</key>
+			<string></string>
+			<key>dstSubfolderSpec</key>
+			<string>13</string>
+			<key>files</key>
+			<array>
+				<string>D129F3FB1DD0AB5000C4CF8D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXCopyFilesBuildPhase</string>
+			<key>name</key>
+			<string>Embed App Extensions</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>D129F4131DD0AB5000C4CF8D</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>D129F4141DD0AB5000C4CF8D</string>
+				<string>D129F4151DD0AB5000C4CF8D</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>D129F4141DD0AB5000C4CF8D</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>EEAE8E38CC976236E2C9FDEB</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
+				<string>YES</string>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>FWD9V5VYJ2</string>
+				<key>IBSC_MODULE</key>
+				<string>WheelOfMisfortuneWatch_Extension</string>
+				<key>INFOPLIST_FILE</key>
+				<string>WheelOfMisfortuneWatch/Info.plist</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.hananim-studios.WheelOfMisfortune.watchkitapp</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>watchos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>4</string>
+				<key>WATCHOS_DEPLOYMENT_TARGET</key>
+				<string>3.0</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>D129F4151DD0AB5000C4CF8D</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>A9AAD63AE785D8DDF45CC81E</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
+				<string>YES</string>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>FWD9V5VYJ2</string>
+				<key>IBSC_MODULE</key>
+				<string>WheelOfMisfortuneWatch_Extension</string>
+				<key>INFOPLIST_FILE</key>
+				<string>WheelOfMisfortuneWatch/Info.plist</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.hananim-studios.WheelOfMisfortune.watchkitapp</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>watchos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>4</string>
+				<key>WATCHOS_DEPLOYMENT_TARGET</key>
+				<string>3.0</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>D129F4161DD0AB5000C4CF8D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>dstPath</key>
+			<string>$(CONTENTS_FOLDER_PATH)/Watch</string>
+			<key>dstSubfolderSpec</key>
+			<string>16</string>
+			<key>files</key>
+			<array>
+				<string>D129F40E1DD0AB5000C4CF8D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXCopyFilesBuildPhase</string>
+			<key>name</key>
+			<string>Embed Watch Content</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>E47BBEAC44EB8721219E2C5A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-WheelOfMisfortuneWatch Extension/Pods-WheelOfMisfortuneWatch Extension-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>E5A78FF135DAA030BDF86C7E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>E78AE1CB6627230B07A99CC6</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-WheelOfMisfortune/Pods-WheelOfMisfortune-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>E87CEBAC02F19360BC73CA4C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>44285EB72BA48827562D468F</string>
+				<string>8A60817218C781477C10ADC1</string>
+				<string>B51EAB081B2C093AB6869E33</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EEAE8E38CC976236E2C9FDEB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-WheelOfMisfortuneWatch.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-WheelOfMisfortuneWatch/Pods-WheelOfMisfortuneWatch.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FA88A1EE14D1A93651746DDA</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-WheelOfMisfortuneWatch Extension/Pods-WheelOfMisfortuneWatch Extension-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>D129F3CF1DD0AB1800C4CF8D</string>
+</dict>
+</plist>
