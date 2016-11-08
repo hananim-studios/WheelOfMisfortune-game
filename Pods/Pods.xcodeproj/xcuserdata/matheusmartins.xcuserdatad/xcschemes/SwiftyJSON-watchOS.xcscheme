@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "16DB2A79A0EC4B8062605C662025CBAA"
-               BuildableName = "Pods_WheelOfMisfortuneWatch_Extension.framework"
-               BlueprintName = "Pods-WheelOfMisfortuneWatch Extension"
+               BlueprintIdentifier = "EE1BFEB8964CF84478C8AF18B789E508"
+               BuildableName = "SwiftyJSON.framework"
+               BlueprintName = "SwiftyJSON-watchOS"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "16DB2A79A0EC4B8062605C662025CBAA"
-            BuildableName = "Pods_WheelOfMisfortuneWatch_Extension.framework"
-            BlueprintName = "Pods-WheelOfMisfortuneWatch Extension"
+            BlueprintIdentifier = "EE1BFEB8964CF84478C8AF18B789E508"
+            BuildableName = "SwiftyJSON.framework"
+            BlueprintName = "SwiftyJSON-watchOS"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

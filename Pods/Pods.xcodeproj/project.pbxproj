@@ -10,6 +10,33 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
+		<key>00B6067CDD498AE02C4FB8DBD7FB7A6A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C2BA913372ED6878DC4ABF3202579EE7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>019C79C8DB9CF4E5AEFC9D8E3440245A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>SwiftyJSON-iOS.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>039442B0F505FE3735587928BBAA7E37</key>
 		<dict>
 			<key>buildConfigurationList</key>
@@ -31,7 +58,7 @@
 			<key>productName</key>
 			<string>Pods-WheelOfMisfortuneWatch</string>
 			<key>productReference</key>
-			<string>2AAA48A5A2C20983509043BF8287F485</string>
+			<string>C193F2D02640A8E09B23F4162169403A</string>
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
 		</dict>
@@ -48,74 +75,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0C66BFB258B0F07F6E3C939269022EE5</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>886EFD6B1F1F8B063932FC4AA16FCA75</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-WheelOfMisfortune/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-WheelOfMisfortune/Pods-WheelOfMisfortune.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_WheelOfMisfortune</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
 		<key>0EA6F229BDE952265102AF647EA87FDE</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -129,36 +88,23 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>159EDA9D54768FDAEE9A2BA1A528CE03</key>
+		<key>13C10233083ACE05B055B5896BAEEC94</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>00B6067CDD498AE02C4FB8DBD7FB7A6A</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-WheelOfMisfortuneWatch-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
-		<key>1BDFBC7DFFDD790BD00C1D171A436DA1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-WheelOfMisfortune-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1E320284F0B66583F7B1DE41D3F532AE</key>
+		<key>153B63C36966BFE36721F30249A713CA</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>BCB180B58B75B5DA6A10D6D8746248F4</string>
+			<string>34DE6B7DF4EC5F2E7E24B67F5211330B</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>APPLICATION_EXTENSION_API_ONLY</key>
@@ -166,7 +112,7 @@
 				<key>CURRENT_PROJECT_VERSION</key>
 				<string>1</string>
 				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
+				<string>dwarf-with-dsym</string>
 				<key>DEFINES_MODULE</key>
 				<string>YES</string>
 				<key>DYLIB_COMPATIBILITY_VERSION</key>
@@ -194,7 +140,7 @@
 				<key>MODULEMAP_FILE</key>
 				<string>Target Support Files/Pods-WheelOfMisfortuneWatch Extension/Pods-WheelOfMisfortuneWatch Extension.modulemap</string>
 				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
+				<string>NO</string>
 				<key>OTHER_LDFLAGS</key>
 				<string></string>
 				<key>OTHER_LIBTOOLFLAGS</key>
@@ -221,20 +167,248 @@
 			<key>isa</key>
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>159EDA9D54768FDAEE9A2BA1A528CE03</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-WheelOfMisfortuneWatch-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>16BB665EE3347D768D1D2D5ACE1F1533</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>019C79C8DB9CF4E5AEFC9D8E3440245A</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/SwiftyJSON-iOS/SwiftyJSON-iOS-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/SwiftyJSON-iOS/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/SwiftyJSON-iOS/SwiftyJSON-iOS.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>PRODUCT_NAME</key>
+				<string>SwiftyJSON</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>16DB2A79A0EC4B8062605C662025CBAA</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>96356BB73CC3300D9A31072C85CB5395</string>
+			<key>buildPhases</key>
+			<array>
+				<string>6F173602811CBBD0016B72F50EF67FE4</string>
+				<string>442BB58AA1FCC5A8DC97DBB87608A698</string>
+				<string>D6400CA5D1EB87E2E89DCB8491C4A856</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>77A4C10579809C401C2827314F47B941</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-WheelOfMisfortuneWatch Extension</string>
+			<key>productName</key>
+			<string>Pods-WheelOfMisfortuneWatch Extension</string>
+			<key>productReference</key>
+			<string>8BF7C4290C9AF0FBE84C6707A14CFFEE</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>17FAB10C5E5C65C8926EA50985F0F7F7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>SwiftyJSON-iOS.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1967F0D9BCEA725BAF22F4863CC88A20</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A136DB53B8E99DF02F7BC3BDCD940258</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1A10054C5371F7EDE31B56E03EABEFDF</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>019C79C8DB9CF4E5AEFC9D8E3440245A</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/SwiftyJSON-iOS/SwiftyJSON-iOS-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/SwiftyJSON-iOS/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/SwiftyJSON-iOS/SwiftyJSON-iOS.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>PRODUCT_NAME</key>
+				<string>SwiftyJSON</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>217DCD25A94E9F85FCB13FB478E035ED</key>
+		<key>1BDFBC7DFFDD790BD00C1D171A436DA1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-WheelOfMisfortune-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1EBC46BEB07350220B67950CD545E4EC</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>79B4C938E978130C1449B7B36133E4F7</string>
+				<string>ECC49CD68E4A2269B2F35BCDDCA1E26C</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
+		</dict>
+		<key>22C9289527B9888AF62522AF48AA743D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>C1100FA46D3B2ED477A8A0FAB00A5B31</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>22D736BEA664A44EB00D45B8AC3F3004</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5158C2AC6F5883FE64B5CCE38D6901E7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>23BC5733F87E5DBDFEC35D7F7A6EDA81</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>SwiftyJSON.framework</string>
+			<key>path</key>
+			<string>SwiftyJSON-watchOS.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>26F9C39E7BC340A22D0172E36DD814C7</key>
 		<dict>
@@ -329,21 +503,6 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>2AAA48A5A2C20983509043BF8287F485</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_WheelOfMisfortuneWatch.framework</string>
-			<key>path</key>
-			<string>Pods-WheelOfMisfortuneWatch.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
 		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
 		<dict>
 			<key>buildConfigurations</key>
@@ -358,73 +517,35 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>30DD6680AAC479D0FFE79E7987AFEDF8</key>
+		<key>2EE5F533D6E7567F8AA558D5270B8273</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>9EAC9906BD2B64A170C8C3E11AB003AC</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-WheelOfMisfortune/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-WheelOfMisfortune/Pods-WheelOfMisfortune.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_WheelOfMisfortune</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>Release</string>
+			<string>SwiftyJSON.swift</string>
+			<key>path</key>
+			<string>Source/SwiftyJSON.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2FFA5B2F348A1DCD2FC119740138ECBE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SwiftyJSON-watchOS-umbrella.h</string>
+			<key>path</key>
+			<string>../SwiftyJSON-watchOS/SwiftyJSON-watchOS-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>34DE6B7DF4EC5F2E7E24B67F5211330B</key>
 		<dict>
@@ -439,12 +560,20 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3D9604FF061A28637DB6C3C1107D011D</key>
+		<key>39E81E12B97BC2FBA430BC1800A905E6</key>
 		<dict>
-			<key>fileRef</key>
-			<string>A136DB53B8E99DF02F7BC3BDCD940258</string>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Pods_WheelOfMisfortune.framework</string>
+			<key>path</key>
+			<string>Pods-WheelOfMisfortune.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>3FC3B26920EF0C0883E89CD039C8B303</key>
 		<dict>
@@ -458,6 +587,47 @@
 			<string>Pods-WheelOfMisfortuneWatch.debug.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4057669D9958868CC6BE04B46240AE2B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>name</key>
+			<string>Info.plist</string>
+			<key>path</key>
+			<string>../SwiftyJSON-watchOS/Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4106F1F6CADAD6DEE09539068730DA4E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SwiftyJSON-iOS-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>442BB58AA1FCC5A8DC97DBB87608A698</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>9892C23870CD9A465B3DCB4AB7D71393</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>47088B1B9429409E6F4F8C39247D284F</key>
 		<dict>
@@ -481,6 +651,23 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>4BADA707736A44B3C58AA8164447D112</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>39E81E12B97BC2FBA430BC1800A905E6</string>
+				<string>C193F2D02640A8E09B23F4162169403A</string>
+				<string>8BF7C4290C9AF0FBE84C6707A14CFFEE</string>
+				<string>23BC5733F87E5DBDFEC35D7F7A6EDA81</string>
+				<string>7D91368AEC1B723BC8A4DDE3E107AD2F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>4EFFA5BB1A188B3133DD75B3E58E7933</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -494,30 +681,134 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>589CB1A3C48782AC3F3272D475247914</key>
+		<key>502E9080C04544D84811496E0988BD26</key>
 		<dict>
-			<key>buildConfigurationList</key>
-			<string>ECDB6BE39BA861E392DFB07030410B55</string>
-			<key>buildPhases</key>
-			<array>
-				<string>E88C7B4C490973497720C80A2FD6EFEC</string>
-				<string>9E6AAC873CD801CA469A90D8DC21C861</string>
-				<string>AECEDF7BBB42D7F1C182A1E9955BF40E</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
+			<key>baseConfigurationReference</key>
+			<string>7704A15CD2E8BA4B1DA63E639982B239</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>APPLICATION_EXTENSION_API_ONLY</key>
+				<string>YES</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/SwiftyJSON-watchOS/SwiftyJSON-watchOS-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/SwiftyJSON-watchOS/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/SwiftyJSON-watchOS/SwiftyJSON-watchOS.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>PRODUCT_NAME</key>
+				<string>SwiftyJSON</string>
+				<key>SDKROOT</key>
+				<string>watchos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>4</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+				<key>WATCHOS_DEPLOYMENT_TARGET</key>
+				<string>2.0</string>
+			</dict>
 			<key>isa</key>
-			<string>PBXNativeTarget</string>
+			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>Pods-WheelOfMisfortune</string>
-			<key>productName</key>
-			<string>Pods-WheelOfMisfortune</string>
-			<key>productReference</key>
-			<string>689CB3AAA054C979484307D81C20EA47</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
+			<string>Debug</string>
+		</dict>
+		<key>5158C2AC6F5883FE64B5CCE38D6901E7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SwiftyJSON-watchOS-dummy.m</string>
+			<key>path</key>
+			<string>../SwiftyJSON-watchOS/SwiftyJSON-watchOS-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5D1904DED65F027188785E37F8A2D2DE</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>1967F0D9BCEA725BAF22F4863CC88A20</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>5F9471C3AD835A72D3509568F57F81A7</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>76F28AF3E5FAA7354F55F94A3FD496CA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>6436BE8A379507B02F2E48115B1CCC8B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4057669D9958868CC6BE04B46240AE2B</string>
+				<string>B33C17A9F53680FFEC26C10D55784882</string>
+				<string>17FAB10C5E5C65C8926EA50985F0F7F7</string>
+				<string>019C79C8DB9CF4E5AEFC9D8E3440245A</string>
+				<string>BD9FD45B4FFB289574967976024AD893</string>
+				<string>4106F1F6CADAD6DEE09539068730DA4E</string>
+				<string>C2BA913372ED6878DC4ABF3202579EE7</string>
+				<string>9FB8EADE9CD1934885FFE840B5F179AC</string>
+				<string>7704A15CD2E8BA4B1DA63E639982B239</string>
+				<string>5158C2AC6F5883FE64B5CCE38D6901E7</string>
+				<string>95F02141B71ADAFF3E20966F8C80540F</string>
+				<string>2FFA5B2F348A1DCD2FC119740138ECBE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/SwiftyJSON-iOS</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>6496DE2ECD067858FB97FB4C4DBAE71C</key>
 		<dict>
@@ -531,21 +822,6 @@
 			<string>Pods-WheelOfMisfortuneWatch-resources.sh</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>689CB3AAA054C979484307D81C20EA47</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_WheelOfMisfortune.framework</string>
-			<key>path</key>
-			<string>Pods-WheelOfMisfortune.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>69F424F28F998CB5A06656DF8042A4CB</key>
 		<dict>
@@ -599,6 +875,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>6F173602811CBBD0016B72F50EF67FE4</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>756A70374F0323047B424BE23AA75BDA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
 		<key>704073D18E694A38F243206B586F3A51</key>
 		<dict>
 			<key>fileRef</key>
@@ -612,6 +901,56 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>756A70374F0323047B424BE23AA75BDA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4EFFA5BB1A188B3133DD75B3E58E7933</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>75D328B78BE2997D72010481DB0A688C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>A481D0911750F6A415BF8D13F7E6C82F</string>
+				<string>91181A244191C85543A02E90FF93BA50</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>76F28AF3E5FAA7354F55F94A3FD496CA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2FFA5B2F348A1DCD2FC119740138ECBE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>7704A15CD2E8BA4B1DA63E639982B239</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>SwiftyJSON-watchOS.xcconfig</string>
+			<key>path</key>
+			<string>../SwiftyJSON-watchOS/SwiftyJSON-watchOS.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>777F13727173164EC5BFFB5E89879E58</key>
 		<dict>
@@ -637,6 +976,17 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>77A4C10579809C401C2827314F47B941</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>SwiftyJSON-watchOS</string>
+			<key>target</key>
+			<string>EE1BFEB8964CF84478C8AF18B789E508</string>
+			<key>targetProxy</key>
+			<string>8C5B453649984EA8B48A83550BB5E77B</string>
+		</dict>
 		<key>77EC105F2C382426DA8BA52199CCE63F</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -650,12 +1000,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>79B4C938E978130C1449B7B36133E4F7</key>
+		<key>7826BBB4FDCF67AAC827BCA690E4F90C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>AB21402F2628AE5AD7FE931E3C014436</string>
+			<string>0EA6F229BDE952265102AF647EA87FDE</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>79DD1FF6CF6224FC359569FE3A334A07</key>
 		<dict>
@@ -683,13 +1040,29 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>7D91368AEC1B723BC8A4DDE3E107AD2F</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>SwiftyJSON.framework</string>
+			<key>path</key>
+			<string>SwiftyJSON-iOS.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
 		<key>7DB346D0F39D3F0E887471402A8071AB</key>
 		<dict>
 			<key>children</key>
 			<array>
 				<string>93A4A3777CF96A4AAC1D13BA6DCCEA73</string>
 				<string>8F91EE078EA3977443D1BDC2601132EF</string>
-				<string>8260BE6C19BF88BA51A33FAC91121A1A</string>
+				<string>BD1E3C710F12F4B4C092FC8E2AD22110</string>
+				<string>4BADA707736A44B3C58AA8164447D112</string>
 				<string>4A7D68E141A7747071738D76B0D6770E</string>
 			</array>
 			<key>isa</key>
@@ -734,20 +1107,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8260BE6C19BF88BA51A33FAC91121A1A</key>
+		<key>823A611CF41AB3E10DF2F49EA0C60FDF</key>
 		<dict>
-			<key>children</key>
+			<key>buildConfigurations</key>
 			<array>
-				<string>689CB3AAA054C979484307D81C20EA47</string>
-				<string>2AAA48A5A2C20983509043BF8287F485</string>
-				<string>8D582276666AE83A8DC4F6D1F52D2293</string>
+				<string>502E9080C04544D84811496E0988BD26</string>
+				<string>C57A42343E3460E4C3C631B5FEA18E9A</string>
 			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>XCConfigurationList</string>
 		</dict>
 		<key>83E6FC889CF67F856C3A6251D1201F7C</key>
 		<dict>
@@ -783,20 +1155,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8905BD211CEFB1A615F5EBE879D4048A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0EA6F229BDE952265102AF647EA87FDE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
 		<key>89B8EBEE3E495F267B2D47DB8A5F5EF2</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -810,7 +1168,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8D582276666AE83A8DC4F6D1F52D2293</key>
+		<key>8BF7C4290C9AF0FBE84C6707A14CFFEE</key>
 		<dict>
 			<key>explicitFileType</key>
 			<string>wrapper.framework</string>
@@ -824,6 +1182,32 @@
 			<string>Pods-WheelOfMisfortuneWatch Extension.framework</string>
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>8C5B453649984EA8B48A83550BB5E77B</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>EE1BFEB8964CF84478C8AF18B789E508</string>
+			<key>remoteInfo</key>
+			<string>SwiftyJSON-watchOS</string>
+		</dict>
+		<key>8C7FC7A3EC99E979D640F4D6CD14CA97</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>C6EB43F46169681BDF96EE2D1BC31207</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>8F91EE078EA3977443D1BDC2601132EF</key>
 		<dict>
@@ -839,18 +1223,82 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>912644A7667AB1981E5FA6F6E23FE6C0</key>
+		<key>90B869D6A9E519A8BEC3F8746D95F043</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8905BD211CEFB1A615F5EBE879D4048A</string>
-			</array>
+			<key>baseConfigurationReference</key>
+			<string>BCB180B58B75B5DA6A10D6D8746248F4</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>APPLICATION_EXTENSION_API_ONLY</key>
+				<string>YES</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods-WheelOfMisfortuneWatch Extension/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods-WheelOfMisfortuneWatch Extension/Pods-WheelOfMisfortuneWatch Extension.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods_WheelOfMisfortuneWatch_Extension</string>
+				<key>SDKROOT</key>
+				<string>watchos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>4</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+				<key>WATCHOS_DEPLOYMENT_TARGET</key>
+				<string>3.0</string>
+			</dict>
 			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>91181A244191C85543A02E90FF93BA50</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2EE5F533D6E7567F8AA558D5270B8273</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>93A4A3777CF96A4AAC1D13BA6DCCEA73</key>
 		<dict>
@@ -871,18 +1319,41 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
-		<key>9E6AAC873CD801CA469A90D8DC21C861</key>
+		<key>95F02141B71ADAFF3E20966F8C80540F</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3D9604FF061A28637DB6C3C1107D011D</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SwiftyJSON-watchOS-prefix.pch</string>
+			<key>path</key>
+			<string>../SwiftyJSON-watchOS/SwiftyJSON-watchOS-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>96356BB73CC3300D9A31072C85CB5395</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>90B869D6A9E519A8BEC3F8746D95F043</string>
+				<string>153B63C36966BFE36721F30249A713CA</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>9892C23870CD9A465B3DCB4AB7D71393</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AB21402F2628AE5AD7FE931E3C014436</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>9E92DBC4F3351F625922ABDEDD92564C</key>
 		<dict>
@@ -918,6 +1389,19 @@
 			<string>text.xcconfig</string>
 			<key>path</key>
 			<string>Pods-WheelOfMisfortune.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9FB8EADE9CD1934885FFE840B5F179AC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>SwiftyJSON-watchOS.modulemap</string>
+			<key>path</key>
+			<string>../SwiftyJSON-watchOS/SwiftyJSON-watchOS.modulemap</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -957,6 +1441,40 @@
 			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework</string>
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>A243B734D5246EAC7B2D11E03EDE83B0</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>C5FEC4A55D0429B78F8BD292FC9DEA57</string>
+			<key>buildPhases</key>
+			<array>
+				<string>8C7FC7A3EC99E979D640F4D6CD14CA97</string>
+				<string>22C9289527B9888AF62522AF48AA743D</string>
+				<string>F05B23A07EF8D3F3194567AE5D82E72E</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>F4759CAE7B0A95E778FF71CA59ED0409</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-WheelOfMisfortune</string>
+			<key>productName</key>
+			<string>Pods-WheelOfMisfortune</string>
+			<key>productReference</key>
+			<string>39E81E12B97BC2FBA430BC1800A905E6</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>A481D0911750F6A415BF8D13F7E6C82F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BD9FD45B4FFB289574967976024AD893</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>A61A030B9DCDC0431EC858B8ECFF9961</key>
 		<dict>
@@ -1050,18 +1568,43 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A9BB4A54B8DB05D0C0CFB09B840C7179</key>
+		<key>A8ADBFD604BECBAA76E88D256024EDA6</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>BA4059B35624D8B96E0808C42305065E</string>
+			<key>buildPhases</key>
+			<array>
+				<string>75D328B78BE2997D72010481DB0A688C</string>
+				<string>5D1904DED65F027188785E37F8A2D2DE</string>
+				<string>13C10233083ACE05B055B5896BAEEC94</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SwiftyJSON-iOS</string>
+			<key>productName</key>
+			<string>SwiftyJSON-iOS</string>
+			<key>productReference</key>
+			<string>7D91368AEC1B723BC8A4DDE3E107AD2F</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>AA21871DE9E7031E85FD3A9236547793</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>34DE6B7DF4EC5F2E7E24B67F5211330B</string>
+			<string>886EFD6B1F1F8B063932FC4AA16FCA75</string>
 			<key>buildSettings</key>
 			<dict>
-				<key>APPLICATION_EXTENSION_API_ONLY</key>
-				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
 				<key>CURRENT_PROJECT_VERSION</key>
 				<string>1</string>
 				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
+				<string>dwarf</string>
 				<key>DEFINES_MODULE</key>
 				<string>YES</string>
 				<key>DYLIB_COMPATIBILITY_VERSION</key>
@@ -1075,9 +1618,11 @@
 				<key>GCC_NO_COMMON_BLOCKS</key>
 				<string>YES</string>
 				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-WheelOfMisfortuneWatch Extension/Info.plist</string>
+				<string>Target Support Files/Pods-WheelOfMisfortune/Info.plist</string>
 				<key>INSTALL_PATH</key>
 				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>10.0</string>
 				<key>LD_RUNPATH_SEARCH_PATHS</key>
 				<array>
 					<string>$(inherited)</string>
@@ -1087,9 +1632,9 @@
 				<key>MACH_O_TYPE</key>
 				<string>staticlib</string>
 				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-WheelOfMisfortuneWatch Extension/Pods-WheelOfMisfortuneWatch Extension.modulemap</string>
+				<string>Target Support Files/Pods-WheelOfMisfortune/Pods-WheelOfMisfortune.modulemap</string>
 				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
+				<string>YES</string>
 				<key>OTHER_LDFLAGS</key>
 				<string></string>
 				<key>OTHER_LIBTOOLFLAGS</key>
@@ -1099,24 +1644,24 @@
 				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
 				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
 				<key>PRODUCT_NAME</key>
-				<string>Pods_WheelOfMisfortuneWatch_Extension</string>
+				<string>Pods_WheelOfMisfortune</string>
 				<key>SDKROOT</key>
-				<string>watchos</string>
+				<string>iphoneos</string>
 				<key>SKIP_INSTALL</key>
 				<string>YES</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
 				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>4</string>
+				<string>1,2</string>
 				<key>VERSIONING_SYSTEM</key>
 				<string>apple-generic</string>
 				<key>VERSION_INFO_PREFIX</key>
 				<string></string>
-				<key>WATCHOS_DEPLOYMENT_TARGET</key>
-				<string>3.0</string>
 			</dict>
 			<key>isa</key>
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>Release</string>
+			<string>Debug</string>
 		</dict>
 		<key>AB21402F2628AE5AD7FE931E3C014436</key>
 		<dict>
@@ -1131,18 +1676,55 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>AECEDF7BBB42D7F1C182A1E9955BF40E</key>
+		<key>B0050E9A6A0CE83BD10B74A9755DAEDF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2EE5F533D6E7567F8AA558D5270B8273</string>
+				<string>6436BE8A379507B02F2E48115B1CCC8B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>SwiftyJSON</string>
+			<key>path</key>
+			<string>SwiftyJSON</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B1310FB69826FE1890B9C16428EE30E7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2EE5F533D6E7567F8AA558D5270B8273</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B2CB790F399DA282BBC04E1CD20753F5</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>F2EC71069985E59DE86E6E1A19BC6D77</string>
+				<string>22D736BEA664A44EB00D45B8AC3F3004</string>
+				<string>B1310FB69826FE1890B9C16428EE30E7</string>
 			</array>
 			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
+			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
+		</dict>
+		<key>B33C17A9F53680FFEC26C10D55784882</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>B4596FBA0D3323A55BAA48C10C53EED9</key>
 		<dict>
@@ -1212,34 +1794,6 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>B483CDF29687699FE6A112B833A39A6C</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>1E320284F0B66583F7B1DE41D3F532AE</string>
-				<string>A9BB4A54B8DB05D0C0CFB09B840C7179</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>B579AE0EBBE2979BDF18443EED704778</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4EFFA5BB1A188B3133DD75B3E58E7933</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B82C8FCE36C34CCC0C62AC9E2DBC0064</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D1DCDCA67F4A92BF4965B841F97AEA1C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>B926F9A31BB1F12C42451A116D6DEDC5</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1252,6 +1806,20 @@
 			<string>Info.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BA4059B35624D8B96E0808C42305065E</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>1A10054C5371F7EDE31B56E03EABEFDF</string>
+				<string>16BB665EE3347D768D1D2D5ACE1F1533</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
 		</dict>
 		<key>BCB180B58B75B5DA6A10D6D8746248F4</key>
 		<dict>
@@ -1266,18 +1834,160 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C35C36D82D35BC11CC0D633C548B13C9</key>
+		<key>BD1E3C710F12F4B4C092FC8E2AD22110</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
+			<key>children</key>
 			<array>
-				<string>B579AE0EBBE2979BDF18443EED704778</string>
+				<string>B0050E9A6A0CE83BD10B74A9755DAEDF</string>
 			</array>
 			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BD9FD45B4FFB289574967976024AD893</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SwiftyJSON-iOS-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C1100FA46D3B2ED477A8A0FAB00A5B31</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A136DB53B8E99DF02F7BC3BDCD940258</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C193F2D02640A8E09B23F4162169403A</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
 			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Pods_WheelOfMisfortuneWatch.framework</string>
+			<key>path</key>
+			<string>Pods-WheelOfMisfortuneWatch.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>C2BA913372ED6878DC4ABF3202579EE7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SwiftyJSON-iOS-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C57A42343E3460E4C3C631B5FEA18E9A</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>7704A15CD2E8BA4B1DA63E639982B239</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>APPLICATION_EXTENSION_API_ONLY</key>
+				<string>YES</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/SwiftyJSON-watchOS/SwiftyJSON-watchOS-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/SwiftyJSON-watchOS/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/SwiftyJSON-watchOS/SwiftyJSON-watchOS.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>PRODUCT_NAME</key>
+				<string>SwiftyJSON</string>
+				<key>SDKROOT</key>
+				<string>watchos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>4</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+				<key>WATCHOS_DEPLOYMENT_TARGET</key>
+				<string>2.0</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>C5FEC4A55D0429B78F8BD292FC9DEA57</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>AA21871DE9E7031E85FD3A9236547793</string>
+				<string>FAD900F9B0FAE966EBCE23C9F479E25E</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>C6EB43F46169681BDF96EE2D1BC31207</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D1DCDCA67F4A92BF4965B841F97AEA1C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D0979C6930B743D7038005E4D8A122E4</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>A8ADBFD604BECBAA76E88D256024EDA6</string>
+			<key>remoteInfo</key>
+			<string>SwiftyJSON-iOS</string>
 		</dict>
 		<key>D13323875350C063B05FA330084C8244</key>
 		<dict>
@@ -1329,7 +2039,7 @@
 			<key>mainGroup</key>
 			<string>7DB346D0F39D3F0E887471402A8071AB</string>
 			<key>productRefGroup</key>
-			<string>8260BE6C19BF88BA51A33FAC91121A1A</string>
+			<string>4BADA707736A44B3C58AA8164447D112</string>
 			<key>projectDirPath</key>
 			<string></string>
 			<key>projectReferences</key>
@@ -1338,9 +2048,11 @@
 			<string></string>
 			<key>targets</key>
 			<array>
-				<string>589CB1A3C48782AC3F3272D475247914</string>
+				<string>A243B734D5246EAC7B2D11E03EDE83B0</string>
 				<string>039442B0F505FE3735587928BBAA7E37</string>
-				<string>F2E046F9047D6A78575944443307B877</string>
+				<string>16DB2A79A0EC4B8062605C662025CBAA</string>
+				<string>A8ADBFD604BECBAA76E88D256024EDA6</string>
+				<string>EE1BFEB8964CF84478C8AF18B789E508</string>
 			</array>
 		</dict>
 		<key>D5923E2577DCE7F971C5F16A85658F3A</key>
@@ -1353,6 +2065,19 @@
 			</array>
 			<key>isa</key>
 			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>D6400CA5D1EB87E2E89DCB8491C4A856</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>7826BBB4FDCF67AAC827BCA690E4F90C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
@@ -1481,32 +2206,37 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E88C7B4C490973497720C80A2FD6EFEC</key>
+		<key>ECC49CD68E4A2269B2F35BCDDCA1E26C</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>B82C8FCE36C34CCC0C62AC9E2DBC0064</string>
-			</array>
+			<key>fileRef</key>
+			<string>AB21402F2628AE5AD7FE931E3C014436</string>
 			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>ECDB6BE39BA861E392DFB07030410B55</key>
+		<key>EE1BFEB8964CF84478C8AF18B789E508</key>
 		<dict>
-			<key>buildConfigurations</key>
+			<key>buildConfigurationList</key>
+			<string>823A611CF41AB3E10DF2F49EA0C60FDF</string>
+			<key>buildPhases</key>
 			<array>
-				<string>0C66BFB258B0F07F6E3C939269022EE5</string>
-				<string>30DD6680AAC479D0FFE79E7987AFEDF8</string>
+				<string>B2CB790F399DA282BBC04E1CD20753F5</string>
+				<string>1EBC46BEB07350220B67950CD545E4EC</string>
+				<string>5F9471C3AD835A72D3509568F57F81A7</string>
 			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SwiftyJSON-watchOS</string>
+			<key>productName</key>
+			<string>SwiftyJSON-watchOS</string>
+			<key>productReference</key>
+			<string>23BC5733F87E5DBDFEC35D7F7A6EDA81</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
 		</dict>
 		<key>EFA29217EA8CDDC06F0CE16C3A3E7B84</key>
 		<dict>
@@ -1521,44 +2251,18 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F2E046F9047D6A78575944443307B877</key>
+		<key>F05B23A07EF8D3F3194567AE5D82E72E</key>
 		<dict>
-			<key>buildConfigurationList</key>
-			<string>B483CDF29687699FE6A112B833A39A6C</string>
-			<key>buildPhases</key>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
 			<array>
-				<string>C35C36D82D35BC11CC0D633C548B13C9</string>
-				<string>217DCD25A94E9F85FCB13FB478E035ED</string>
-				<string>912644A7667AB1981E5FA6F6E23FE6C0</string>
+				<string>FC4AF2C773F3CC5BEDE1FC4577CC6E81</string>
 			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
 			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-WheelOfMisfortuneWatch Extension</string>
-			<key>productName</key>
-			<string>Pods-WheelOfMisfortuneWatch Extension</string>
-			<key>productReference</key>
-			<string>8D582276666AE83A8DC4F6D1F52D2293</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>F2EC71069985E59DE86E6E1A19BC6D77</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6E5D5D8799C05A6CFD3F5ECA0AFD8D42</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>F3E94A409446FB131AFD7EC29805A210</key>
 		<dict>
@@ -1572,6 +2276,99 @@
 			<string>Info.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F4759CAE7B0A95E778FF71CA59ED0409</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>SwiftyJSON-iOS</string>
+			<key>target</key>
+			<string>A8ADBFD604BECBAA76E88D256024EDA6</string>
+			<key>targetProxy</key>
+			<string>D0979C6930B743D7038005E4D8A122E4</string>
+		</dict>
+		<key>FAD900F9B0FAE966EBCE23C9F479E25E</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>9EAC9906BD2B64A170C8C3E11AB003AC</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods-WheelOfMisfortune/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>10.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods-WheelOfMisfortune/Pods-WheelOfMisfortune.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods_WheelOfMisfortune</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>FC4AF2C773F3CC5BEDE1FC4577CC6E81</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6E5D5D8799C05A6CFD3F5ECA0AFD8D42</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 	</dict>
 	<key>rootObject</key>

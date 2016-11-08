@@ -1,0 +1,150 @@
+{
+    "cards": [
+              [
+               {
+               "title": "The Queen",
+               "text": "My Lord, i need to speak with you, it's about money, do you have time now? ",
+               "declineActions": {
+               "addMoral": -5,
+               "addMoney": 0,
+               "addOrder": -5,
+               "addPower": 5
+               },
+               "acceptActions": {
+               "addMoral": 5,
+               "addMoney": 0,
+               "addOrder": 5,
+               "addPower": 0,
+               "showCard": [
+                            0,
+                            1
+                            ]
+               }
+               },
+               {
+               "title": "The Queen",
+               "text": "I went to the church, and God spoke to me, he asked me to make a campaign to raise money and help the poor.",
+               "declineActions": {
+               "addMoral": -25,
+               "addMoney": 0,
+               "addOrder": -5,
+               "addPower": 0
+               },
+               "acceptActions": {
+               "addMoral": 10,
+               "addMoney": 30,
+               "addOrder": 25,
+               "addPower": 0,
+               "showCard": [
+                            1,
+                            0
+                            ]
+               }
+               }
+               ],
+              [
+               {
+               "title": "Noble",
+               "text": "Life is so boring these days.",
+               "declineActions": {
+               "addMoral": 0,
+               "addMoney": 0,
+               "addOrder": 0,
+               "addPower": -5
+               },
+               "acceptActions": {
+               "addMoral": -5,
+               "addMoney": -15,
+               "addOrder": 0,
+               "addPower": 15,
+               "showCard": [
+                            1,
+                            1
+                            ]
+               }
+               },
+               {
+               "title": "Noble",
+               "text": "We should throw a party. Only nobles and the military invited.",
+               "declineActions": {
+               "addMoral": 0,
+               "addMoney": 0,
+               "addOrder": 0,
+               "addPower": -15
+               },
+               "acceptActions": {
+               "addMoral": -35,
+               "addMoney": -50,
+               "addOrder": 0,
+               "addPower": 15,
+               "showCard": [
+                            2,
+                            0
+                            ]
+               }
+               }
+               ],
+              [
+               {
+               "title": "Gipsy",
+               "text": "Do you believe in Luck?",
+               "declineActions": {
+               "addMoral": 5,
+               "addMoney": 0,
+               "addOrder": 0,
+               "addPower": 0
+               },
+               "acceptActions": {
+               "addMoral": -15,
+               "addMoney": -10,
+               "addOrder": 0,
+               "addPower": 0,
+               "showCard": [
+                            2,
+                            2
+                            ]
+               }
+               },
+               {
+               "title": "Gipsy",
+               "text": "Do you believe in Destiny?",
+               "declineActions": {
+               "addMoral": 0,
+               "addMoney": 0,
+               "addOrder": 0,
+               "addPower": 0
+               },
+               "acceptActions": {
+               "addMoral": -5,
+               "addMoney": -15,
+               "addOrder": 0,
+               "addPower": 15,
+               "showCard": [
+                            2,
+                            0
+                            ]
+               }
+               },
+               {
+               "title": "Gipsy",
+               "text": "Do you feel lucky?",
+               "declineActions": {
+               "addMoral": 0,
+               "addMoney": 0,
+               "addOrder": -20,
+               "addPower": -15
+               },
+               "acceptActions": {
+               "addMoral": -5,
+               "addMoney": 0,
+               "addOrder": 15,
+               "addPower": 0,
+               "showCard": [
+                            2,
+                            ""
+                            ]
+               }
+               }
+               ]
+              ]
+}

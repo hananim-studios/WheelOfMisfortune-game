@@ -24,6 +24,8 @@
 		D129F4081DD0AB5000C4CF8D /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D129F4071DD0AB5000C4CF8D /* ComplicationController.swift */; };
 		D129F40A1DD0AB5000C4CF8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D129F4091DD0AB5000C4CF8D /* Assets.xcassets */; };
 		D129F40E1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D129F3EE1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch.app */; };
+		D1A3B9E91DD200B80063E459 /* Cards.json in Resources */ = {isa = PBXBuildFile; fileRef = D1A3B9E81DD200B80063E459 /* Cards.json */; };
+		D1A3B9EA1DD200B80063E459 /* Cards.json in Resources */ = {isa = PBXBuildFile; fileRef = D1A3B9E81DD200B80063E459 /* Cards.json */; };
 		D1AB71AD1DD0BF630038BF0D /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB71AC1DD0BF630038BF0D /* Game.swift */; };
 		D1AB71AE1DD0BF750038BF0D /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB71AC1DD0BF630038BF0D /* Game.swift */; };
 		D1AB71B01DD0C8EF0038BF0D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB71AF1DD0C8EF0038BF0D /* Card.swift */; };
@@ -100,6 +102,7 @@
 		D129F4071DD0AB5000C4CF8D /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		D129F4091DD0AB5000C4CF8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D129F40B1DD0AB5000C4CF8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1A3B9E81DD200B80063E459 /* Cards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Cards.json; sourceTree = "<group>"; };
 		D1AB71AC1DD0BF630038BF0D /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		D1AB71AF1DD0C8EF0038BF0D /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		EEAE8E38CC976236E2C9FDEB /* Pods-WheelOfMisfortuneWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WheelOfMisfortuneWatch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WheelOfMisfortuneWatch/Pods-WheelOfMisfortuneWatch.debug.xcconfig"; sourceTree = "<group>"; };
@@ -171,6 +174,7 @@
 		D129F3D91DD0AB1800C4CF8D /* WheelOfMisfortune */ = {
 			isa = PBXGroup;
 			children = (
+				D1A3B9E71DD200A60063E459 /* Data */,
 				D1AB71B11DD0C8FC0038BF0D /* Model */,
 				D129F3DA1DD0AB1800C4CF8D /* AppDelegate.swift */,
 				D129F3DC1DD0AB1800C4CF8D /* ViewController.swift */,
@@ -212,6 +216,14 @@
 				D129F4001DD0AB5000C4CF8D /* PushNotificationPayload.apns */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1A3B9E71DD200A60063E459 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D1A3B9E81DD200B80063E459 /* Cards.json */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 		D1AB71B11DD0C8FC0038BF0D /* Model */ = {
@@ -353,6 +365,7 @@
 				D129F3E51DD0AB1800C4CF8D /* LaunchScreen.storyboard in Resources */,
 				D129F3E21DD0AB1800C4CF8D /* Assets.xcassets in Resources */,
 				D129F3E01DD0AB1800C4CF8D /* Main.storyboard in Resources */,
+				D1A3B9E91DD200B80063E459 /* Cards.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D129F40A1DD0AB5000C4CF8D /* Assets.xcassets in Resources */,
+				D1A3B9EA1DD200B80063E459 /* Cards.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -665,6 +679,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 08DEDE42795EF56EF9454090 /* Pods-WheelOfMisfortune.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FWD9V5VYJ2;
 				INFOPLIST_FILE = WheelOfMisfortune/Info.plist;
@@ -679,6 +694,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 29B6E2EA81F6D674AC402E8A /* Pods-WheelOfMisfortune.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FWD9V5VYJ2;
 				INFOPLIST_FILE = WheelOfMisfortune/Info.plist;
@@ -693,6 +709,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 448FE7620FBB5C08BFD6FF5A /* Pods-WheelOfMisfortuneWatch Extension.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				DEVELOPMENT_TEAM = FWD9V5VYJ2;
 				INFOPLIST_FILE = "WheelOfMisfortuneWatch Extension/Info.plist";
@@ -711,6 +728,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3EFB289BA17D558F37ED6ABB /* Pods-WheelOfMisfortuneWatch Extension.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				DEVELOPMENT_TEAM = FWD9V5VYJ2;
 				INFOPLIST_FILE = "WheelOfMisfortuneWatch Extension/Info.plist";
