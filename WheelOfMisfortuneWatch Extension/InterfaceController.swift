@@ -12,6 +12,8 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
 
+    @IBOutlet var storyLabel: WKInterfaceLabel!
+    
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
@@ -28,4 +30,18 @@ class InterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
 
+    @IBAction func noButtonPressed() {
+        
+        animate(withDuration: 0.3) {
+            self.storyLabel.setAlpha(0)
+        }
+        
+    }
+    @IBAction func yesButtonPressed() {
+        
+        animate(withDuration: 0.3) {
+            self.storyLabel.setAlpha(0)
+        }
+        
+    }
 }

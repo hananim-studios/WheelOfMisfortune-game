@@ -12,7 +12,7 @@ protocol GameDelegate {
     
 }
 
-class Game: CardDelegate {
+class Game {
     
     var moral: Int = 0
     var money: Int = 0
