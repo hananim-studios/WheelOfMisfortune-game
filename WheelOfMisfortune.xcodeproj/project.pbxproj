@@ -26,6 +26,8 @@
 		D129F40E1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D129F3EE1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch.app */; };
 		D1A3B9E91DD200B80063E459 /* Cards.json in Resources */ = {isa = PBXBuildFile; fileRef = D1A3B9E81DD200B80063E459 /* Cards.json */; };
 		D1A3B9EA1DD200B80063E459 /* Cards.json in Resources */ = {isa = PBXBuildFile; fileRef = D1A3B9E81DD200B80063E459 /* Cards.json */; };
+		D1A3B9EC1DD211400063E459 /* CardsJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A3B9EB1DD211400063E459 /* CardsJSON.swift */; };
+		D1A3B9ED1DD211400063E459 /* CardsJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A3B9EB1DD211400063E459 /* CardsJSON.swift */; };
 		D1AB71AD1DD0BF630038BF0D /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB71AC1DD0BF630038BF0D /* Game.swift */; };
 		D1AB71AE1DD0BF750038BF0D /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB71AC1DD0BF630038BF0D /* Game.swift */; };
 		D1AB71B01DD0C8EF0038BF0D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB71AF1DD0C8EF0038BF0D /* Card.swift */; };
@@ -103,6 +105,7 @@
 		D129F4091DD0AB5000C4CF8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D129F40B1DD0AB5000C4CF8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1A3B9E81DD200B80063E459 /* Cards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Cards.json; sourceTree = "<group>"; };
+		D1A3B9EB1DD211400063E459 /* CardsJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsJSON.swift; sourceTree = "<group>"; };
 		D1AB71AC1DD0BF630038BF0D /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		D1AB71AF1DD0C8EF0038BF0D /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		EEAE8E38CC976236E2C9FDEB /* Pods-WheelOfMisfortuneWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WheelOfMisfortuneWatch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WheelOfMisfortuneWatch/Pods-WheelOfMisfortuneWatch.debug.xcconfig"; sourceTree = "<group>"; };
@@ -222,6 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				D1A3B9E81DD200B80063E459 /* Cards.json */,
+				D1A3B9EB1DD211400063E459 /* CardsJSON.swift */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -517,6 +521,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1A3B9EC1DD211400063E459 /* CardsJSON.swift in Sources */,
 				D129F3DD1DD0AB1800C4CF8D /* ViewController.swift in Sources */,
 				D1AB71AD1DD0BF630038BF0D /* Game.swift in Sources */,
 				D129F3DB1DD0AB1800C4CF8D /* AppDelegate.swift in Sources */,
@@ -530,6 +535,7 @@
 			files = (
 				D129F4061DD0AB5000C4CF8D /* NotificationController.swift in Sources */,
 				D1AB71B21DD0CA490038BF0D /* Card.swift in Sources */,
+				D1A3B9ED1DD211400063E459 /* CardsJSON.swift in Sources */,
 				D1AB71AE1DD0BF750038BF0D /* Game.swift in Sources */,
 				D129F4081DD0AB5000C4CF8D /* ComplicationController.swift in Sources */,
 				D129F4041DD0AB5000C4CF8D /* ExtensionDelegate.swift in Sources */,
