@@ -19,26 +19,29 @@ enum CardAction {
     case AddPower(power: Int)
     
     case ShowCard(group: Int, id: Int)
+    case ShowRandomCard
     
     init(tuple: (key: String, value: JSON)) {
         switch(tuple.key) {
         case "addMoral":
-            self = CardAction.AddMoral(moral: tuple.value.intValue)
+            self = .AddMoral(moral: tuple.value.intValue)
         case "addMoney":
-            self = CardAction.AddMoney(money: tuple.value.intValue)
+            self = .AddMoney(money: tuple.value.intValue)
         case "addOrder":
-            self = CardAction.AddOrder(order: tuple.value.intValue)
+            self = .AddOrder(order: tuple.value.intValue)
         case "addPower":
-            self = CardAction.AddPower(power: tuple.value.intValue)
+            self = .AddPower(power: tuple.value.intValue)
         case "showCard":
             if let array = tuple.value.array {
-                self = CardAction.ShowCard(group: array[0].intValue,
+                self = .ShowCard(group: array[0].intValue,
                                            id: array[1].intValue)
             } else {
                 fatalError("Malformed JSON")
             }
+        case "showRandomCard":
+            self = .ShowRandomCard
         default:
-            self = CardAction.None
+            self = .None
         }
     }
 }

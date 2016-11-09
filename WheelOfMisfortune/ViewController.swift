@@ -8,8 +8,10 @@
 
 import UIKit
 import SwiftyJSON
+import WatchKit
 
 class ViewController: UIViewController, GameDelegate, WatchConnectionManagerPhoneDelegate {
+
     
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var portrait: UIImageView!
@@ -46,7 +48,8 @@ class ViewController: UIViewController, GameDelegate, WatchConnectionManagerPhon
            //TODO -- atualizar interface
             // response : String representa a resposta recebida do Watch - "0" (Não) ou "1" (Sim)
         })
-        
+    }
+    
     func game(game: Game, didShowCard card: Card) {
         
         self.titleLabel.text = card.title

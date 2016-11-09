@@ -23,8 +23,13 @@ class Game {
     
     var currentCard: Card? = nil
     
+    var nextCardGroup = 0
+    var nextCardId = 0
+    
     func start() {
-        showCardAtGroup(group: 0, andIndex: 0)
+        if CardsJSON.load() {
+            showCardAtGroup(group: 0, andIndex: 0)
+        }
     }
     
     func showCardAtGroup(group: Int, andIndex index: Int) {
@@ -32,16 +37,25 @@ class Game {
         self.delegate?.game(game: self, didShowCard: self.currentCard!)
     }
     
+    func showRandomCard() {
+
+    }
+    
     func acceptCurrentCard() {
         for action in self.currentCard!.acceptActions {
             self.doCardAction(action: action)
         }
+        
+        self.showCardAtGroup(group: self.nextCardGroup, andIndex: self.nextCardId)
     }
     
     func declineCurrentCard() {
         for action in self.currentCard!.declineActions {
+            print(self.currentCard!.declineActions)
             self.doCardAction(action: action)
         }
+        
+        self.showCardAtGroup(group: self.nextCardGroup, andIndex: self.nextCardId)
     }
     
     func doCardAction(action: CardAction) {
@@ -55,7 +69,12 @@ class Game {
         case let .AddPower(power):
             self.power += power
         case let .ShowCard(group, id):
-            self.showCardAtGroup(group: group, andIndex: id)
+            self.nextCardId = id
+            self.nextCardGroup = group
+        case .ShowRandomCard:
+            self.nextCardId = 0
+            self.nextCardGroup = Int(arc4random_uniform(UInt32(CardsJSON.groupCount())))
+            
         default: break
         }
     }
