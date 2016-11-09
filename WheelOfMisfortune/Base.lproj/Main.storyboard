@@ -45,7 +45,7 @@
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UeO-xC-NPj">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="resource_moral" translatesAutoresizingMaskIntoConstraints="NO" id="UeO-xC-NPj">
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="54" id="WWo-AT-yHv"/>
                                                     <constraint firstAttribute="height" constant="54" id="x0N-z8-4Hl"/>
@@ -60,7 +60,7 @@
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="T8r-MG-QVe">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="resource_money" translatesAutoresizingMaskIntoConstraints="NO" id="T8r-MG-QVe">
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="54" id="Olc-Fn-Rhp"/>
                                                     <constraint firstAttribute="width" constant="54" id="fg8-0S-VXN"/>
@@ -75,7 +75,7 @@
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Tqj-Md-LoI">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="resource_order" translatesAutoresizingMaskIntoConstraints="NO" id="Tqj-Md-LoI">
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="54" id="VDq-f5-SjG"/>
                                                     <constraint firstAttribute="height" constant="54" id="fOQ-jd-45B"/>
@@ -90,7 +90,7 @@
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="d67-EB-Q2n">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="resource_power" translatesAutoresizingMaskIntoConstraints="NO" id="d67-EB-Q2n">
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="54" id="3bx-ja-P3B"/>
                                                     <constraint firstAttribute="height" constant="54" id="Vlg-Pi-YOh"/>
@@ -162,5 +162,9 @@
     </scenes>
     <resources>
         <image name="gandalf" width="400" height="390"/>
+        <image name="resource_money" width="1280" height="1025"/>
+        <image name="resource_moral" width="1280" height="1024"/>
+        <image name="resource_order" width="1280" height="1025"/>
+        <image name="resource_power" width="1280" height="1025"/>
     </resources>
 </document>
