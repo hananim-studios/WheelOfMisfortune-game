@@ -12,7 +12,15 @@ import WatchConnectivity
 
 class InterfaceController: WKInterfaceController, WatchConnectionManagerWatchDelegate {
 
+    @IBOutlet var titleLabel: WKInterfaceLabel!
     @IBOutlet var storyLabel: WKInterfaceLabel!
+    @IBOutlet var moralAttributeLabel: WKInterfaceLabel!
+    @IBOutlet var moneyAttributeLevel: WKInterfaceLabel!
+    @IBOutlet var orderAttributeLabel: WKInterfaceLabel!
+    @IBOutlet var powerAttributeLevel: WKInterfaceLabel!
+    
+    
+    
     var response = "-"
     
     
@@ -32,9 +40,15 @@ class InterfaceController: WKInterfaceController, WatchConnectionManagerWatchDel
     
     // MARK: WatchConnectivityManagerDelegate
 
-    func connectionManager(_ connectionManager: ConnectionManager, updatedWithCardText text: String, andTitle title: String) {
+    func connectionManager(_ connectionManager: ConnectionManager, updatedWithCardText text: String, cardTitle title: String, andAttributes attributes: [String]) {
         DispatchQueue.main.async(execute: {
+            
             self.storyLabel.setText(text)
+            self.titleLabel.setText(title)
+            self.moralAttributeLabel.setText(attributes[0])
+            self.moneyAttributeLevel.setText(attributes[1])
+            self.orderAttributeLabel.setText(attributes[2])
+            self.powerAttributeLevel.setText(attributes[3])
         })
     }
     

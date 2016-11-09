@@ -14,7 +14,7 @@ protocol WatchConnectionManagerPhoneDelegate: class {
 }
 
 protocol WatchConnectionManagerWatchDelegate: class {
-    func connectionManager(_ connectionManager: ConnectionManager, updatedWithCardText text: String, andTitle title: String)
+    func connectionManager(_ connectionManager: ConnectionManager, updatedWithCardText text: String, cardTitle title: String, andAttributes attributes: [String])
 }
 
 class ConnectionManager: NSObject, WCSessionDelegate {
@@ -49,11 +49,11 @@ class ConnectionManager: NSObject, WCSessionDelegate {
         #endif
         #if os(watchOS)
         //Configura Watch Interface com dados do Context (usar delegate)
-            guard let text = applicationContext["text"] as? String, let title = applicationContext["title"] as? String else {
-                delegate?.connectionManager(self, updatedWithCardText: "-", andTitle: "-")
+            guard let text = applicationContext["text"] as? String, let title = applicationContext["title"] as? String, let attributes = applicationContext["attributes"] as? [String] else {
+                delegate?.connectionManager(self, updatedWithCardText: "-", cardTitle: "-", andAttributes: ["-"])
                 return
             }
-            delegate?.connectionManager(self, updatedWithCardText: text, andTitle: title)
+            delegate?.connectionManager(self, updatedWithCardText: text, cardTitle: title, andAttributes: attributes)
         #endif
     }
     

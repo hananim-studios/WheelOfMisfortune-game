@@ -13,6 +13,9 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WheelOfMisfortuneWatch" customModuleProvider="target">
                     <items>
+                        <label alignment="center" text="Label" id="XOC-oO-FVy">
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
                         <group width="1" widthAdjustment="-3" alignment="right" id="bX6-fF-MWa">
                             <items>
                                 <separator width="1" widthAdjustment="-8" alignment="left" verticalAlignment="center" id="WDi-Fv-q3t">
@@ -67,7 +70,12 @@
                         </group>
                     </items>
                     <connections>
+                        <outlet property="moneyAttributeLevel" destination="sMT-HI-9u0" id="GUc-Uf-Sbn"/>
+                        <outlet property="moralAttributeLabel" destination="6xc-4m-P4G" id="VKC-Yo-ECT"/>
+                        <outlet property="orderAttributeLabel" destination="A8P-ln-5E7" id="IDd-aC-PW7"/>
+                        <outlet property="powerAttributeLevel" destination="rJB-Ho-4rj" id="Kbo-Vm-uYd"/>
                         <outlet property="storyLabel" destination="Ak5-zy-xS7" id="zBL-gA-MNP"/>
+                        <outlet property="titleLabel" destination="XOC-oO-FVy" id="Zdt-qy-CL2"/>
                     </connections>
                 </controller>
             </objects>

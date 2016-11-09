@@ -8,7 +8,7 @@
 
 import UIKit
 import SwiftyJSON
-import WatchKit
+import WatchConnectivity
 
 class ViewController: UIViewController, GameDelegate, WatchConnectionManagerPhoneDelegate {
 
@@ -46,9 +46,12 @@ class ViewController: UIViewController, GameDelegate, WatchConnectionManagerPhon
     func connectionManager(_ connectionManager: ConnectionManager, updatedWithResponse response: String) {
         DispatchQueue.main.async(execute: {
            //TODO -- atualizar interface
-            // response : String representa a resposta recebida do Watch - "0" (Não) ou "1" (Sim)
+            // response: String representa a resposta recebida do Watch - "0" (Não) ou "1" (Sim)
         })
+        
+        updateWatchApplicationContext(WithCardText: "Next Card", cardTitle: "Next Title", andAttributes: ["10", "12", "14", "50"])
     }
+    
     
     func game(game: Game, didShowCard card: Card) {
         
@@ -61,6 +64,8 @@ class ViewController: UIViewController, GameDelegate, WatchConnectionManagerPhon
         self.powerLabel.text = game.power.description
     }
     
+    // MARK: Interface Actions
+    
     @IBAction func declineButtonPressed(_ sender: UIButton) {
         game?.declineCurrentCard()
     }
@@ -69,5 +74,23 @@ class ViewController: UIViewController, GameDelegate, WatchConnectionManagerPhon
     @IBAction func acceptButtonPressed(_ sender: AnyObject) {
         game?.acceptCurrentCard()
     }
+    
+    // MARK: Convenience
+    
+    func updateWatchApplicationContext(WithCardText text: String, cardTitle title: String, andAttributes attributes: [String]) {
+        let defaultSession = WCSession.default()
+        
+        do {
+            try defaultSession.updateApplicationContext([
+                "text": text,
+                "title": title,
+                "attributes": attributes
+                ])
+        }
+        catch let error as NSError {
+            print("\(error.localizedDescription)")
+        }
+    }
+
 }
 

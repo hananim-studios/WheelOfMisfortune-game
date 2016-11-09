@@ -161,12 +161,12 @@
 				C6C9E6A01DD1F980008EA720 /* ConnectionManager.swift */,
 			);
 			name = Shared;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		D129F3CE1DD0AB1800C4CF8D = {
 			isa = PBXGroup;
 			children = (
-				C6C9E6A31DD218D6008EA720 /* Shared */,
 				D129F3D91DD0AB1800C4CF8D /* WheelOfMisfortune */,
 				D129F3EF1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch */,
 				D129F3FE1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch Extension */,
@@ -189,6 +189,7 @@
 		D129F3D91DD0AB1800C4CF8D /* WheelOfMisfortune */ = {
 			isa = PBXGroup;
 			children = (
+				C6C9E6A31DD218D6008EA720 /* Shared */,
 				D1A3B9E71DD200A60063E459 /* Data */,
 				D1AB71B11DD0C8FC0038BF0D /* Model */,
 				D129F3DA1DD0AB1800C4CF8D /* AppDelegate.swift */,
