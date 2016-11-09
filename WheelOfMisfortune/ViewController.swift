@@ -49,6 +49,7 @@ class ViewController: UIViewController, GameDelegate, WatchConnectionManagerPhon
             // response: String representa a resposta recebida do Watch - "0" (Não) ou "1" (Sim)
         })
         
+        // Sends next information to watch
         updateWatchApplicationContext(WithCardText: "Next Card", cardTitle: "Next Title", andAttributes: ["10", "12", "14", "50"])
     }
     
