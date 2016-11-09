@@ -10,8 +10,11 @@ import UIKit
 import SwiftyJSON
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 class ViewController: UIViewController, WatchConnectionManagerPhoneDelegate {
 =======
+=======
+>>>>>>> 075389fcb2035b9c91959389d3a473b74f3177d3
 class ViewController: UIViewController, GameDelegate {
     
     @IBOutlet weak var titleLabel: UILabel!
@@ -21,7 +24,10 @@ class ViewController: UIViewController, GameDelegate {
     @IBOutlet weak var moneyLabel: UILabel!
     @IBOutlet weak var orderLabel: UILabel!
     @IBOutlet weak var powerLabel: UILabel!
+<<<<<<< HEAD
 >>>>>>> origin/master
+=======
+>>>>>>> 075389fcb2035b9c91959389d3a473b74f3177d3
 
     @IBOutlet weak var textView: UITextView!
     
@@ -31,14 +37,20 @@ class ViewController: UIViewController, GameDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
 <<<<<<< HEAD
+<<<<<<< HEAD
         ConnectionManager.sharedConnectionManager.delegate = self
 =======
+=======
+>>>>>>> 075389fcb2035b9c91959389d3a473b74f3177d3
         
         game = Game()
         
         game?.delegate = self
         game?.start()
+<<<<<<< HEAD
 >>>>>>> origin/master
+=======
+>>>>>>> 075389fcb2035b9c91959389d3a473b74f3177d3
     }
 
     override func didReceiveMemoryWarning() {
@@ -46,6 +58,7 @@ class ViewController: UIViewController, GameDelegate {
         // Dispose of any resources that can be recreated.
     }
     
+<<<<<<< HEAD
 <<<<<<< HEAD
     // MARK: WatchConnectivityManagerDelegate
     
@@ -55,6 +68,8 @@ class ViewController: UIViewController, GameDelegate {
             // response : String representa a resposta recebida do Watch - "0" (Não) ou "1" (Sim)
         })
 =======
+=======
+>>>>>>> 075389fcb2035b9c91959389d3a473b74f3177d3
     func game(game: Game, didShowCard card: Card) {
         
         self.titleLabel.text = card.title
@@ -73,7 +88,10 @@ class ViewController: UIViewController, GameDelegate {
 
     @IBAction func acceptButtonPressed(_ sender: AnyObject) {
         game?.acceptCurrentCard()
+<<<<<<< HEAD
 >>>>>>> origin/master
+=======
+>>>>>>> 075389fcb2035b9c91959389d3a473b74f3177d3
     }
 }
 
