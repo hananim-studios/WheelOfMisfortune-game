@@ -42,7 +42,7 @@ class ConnectionManager: NSObject, WCSessionDelegate {
         //Configura iOS Interface com dados do Context (usar delegate)
             guard let response = applicationContext["response"] as? String else {
                 //Standard response in case of expected values are unavailable in `applicationContext`
-                delegate?.connectionManager(self, updatedWithResponse: "")
+                delegate?.connectionManager(self, updatedWithResponse: "-")
                 return
             }
             delegate?.connectionManager(self, updatedWithResponse: response)
@@ -50,7 +50,7 @@ class ConnectionManager: NSObject, WCSessionDelegate {
         #if os(watchOS)
         //Configura Watch Interface com dados do Context (usar delegate)
             guard let text = applicationContext["text"] as? String, let title = applicationContext["title"] as? String else {
-                delegate?.connectionManager(self, updatedWithCardText: "", andTitle: "")
+                delegate?.connectionManager(self, updatedWithCardText: "-", andTitle: "-")
                 return
             }
             delegate?.connectionManager(self, updatedWithCardText: text, andTitle: title)
@@ -84,7 +84,6 @@ class ConnectionManager: NSObject, WCSessionDelegate {
     }
     
     #if os(iOS)
-    // The next 2 methods are required in order to support quick watch switching.
     func sessionDidBecomeInactive(_ session: WCSession) {
         /*
          The `sessionDidBecomeInactive(_:)` callback indicates sending has been disabled. If your iOS app

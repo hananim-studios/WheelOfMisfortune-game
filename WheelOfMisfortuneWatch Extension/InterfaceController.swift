@@ -7,16 +7,19 @@
 //
 
 import WatchKit
-import Foundation
+import WatchConnectivity
 
 
-class InterfaceController: WKInterfaceController {
+class InterfaceController: WKInterfaceController, WatchConnectionManagerWatchDelegate {
 
     @IBOutlet var storyLabel: WKInterfaceLabel!
+    var response = "-"
+    
+    
     
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
-        
+        ConnectionManager.sharedConnectionManager.delegate = self
     }
     
     override func willActivate() {
@@ -26,19 +29,42 @@ class InterfaceController: WKInterfaceController {
     override func didDeactivate() {
         super.didDeactivate()
     }
+    
+    // MARK: WatchConnectivityManagerDelegate
+
+    func connectionManager(_ connectionManager: ConnectionManager, updatedWithCardText text: String, andTitle title: String) {
+        DispatchQueue.main.async(execute: {
+            self.storyLabel.setText(text)
+        })
+    }
+    
+    // MARK: Interface Actions
 
     @IBAction func noButtonPressed() {
-        
-        animate(withDuration: 0.3) {
-            self.storyLabel.setAlpha(0)
-        }
+        response = "0"
+        updateInterfaceApplicationContext(WithResponse: response)
         
     }
     @IBAction func yesButtonPressed() {
-        
-        animate(withDuration: 0.3) {
-            self.storyLabel.setAlpha(0)
-        }
-        
+        response = "1"
+        updateInterfaceApplicationContext(WithResponse: response)
     }
+    
+    // MARK: Convenience
+    
+    func updateInterfaceApplicationContext(WithResponse response:String) {
+        let defaultSession = WCSession.default()
+        
+        do {
+            try defaultSession.updateApplicationContext([
+                "response": response,
+                ])
+        }
+        catch let error as NSError {
+            print("\(error.localizedDescription)")
+        }
+    }
+
+
+    
 }

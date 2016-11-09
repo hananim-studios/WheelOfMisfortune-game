@@ -7,17 +7,27 @@
 		<key>Pods-WheelOfMisfortune.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<key>Pods-WheelOfMisfortuneWatch Extension.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>0</integer>
 		</dict>
 		<key>Pods-WheelOfMisfortuneWatch.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
+		</dict>
+		<key>SwiftyJSON-iOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>SwiftyJSON-watchOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -27,7 +37,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>16DB2A79A0EC4B8062605C662025CBAA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>589CB1A3C48782AC3F3272D475247914</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A243B734D5246EAC7B2D11E03EDE83B0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A8ADBFD604BECBAA76E88D256024EDA6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EE1BFEB8964CF84478C8AF18B789E508</key>
 		<dict>
 			<key>primary</key>
 			<true/>

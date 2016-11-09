@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0800"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F2E046F9047D6A78575944443307B877"
+               BlueprintIdentifier = "16DB2A79A0EC4B8062605C662025CBAA"
                BuildableName = "Pods_WheelOfMisfortuneWatch_Extension.framework"
                BlueprintName = "Pods-WheelOfMisfortuneWatch Extension"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F2E046F9047D6A78575944443307B877"
+            BlueprintIdentifier = "16DB2A79A0EC4B8062605C662025CBAA"
             BuildableName = "Pods_WheelOfMisfortuneWatch_Extension.framework"
             BlueprintName = "Pods-WheelOfMisfortuneWatch Extension"
             ReferencedContainer = "container:Pods.xcodeproj">

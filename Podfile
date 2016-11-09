@@ -6,7 +6,7 @@ target 'WheelOfMisfortune' do
   use_frameworks!
 
   # Pods for WheelOfMisfortune
-
+  pod 'SwiftyJSON'
 end
 
 target 'WheelOfMisfortuneWatch' do
@@ -22,5 +22,5 @@ target 'WheelOfMisfortuneWatch Extension' do
   use_frameworks!
 
   # Pods for WheelOfMisfortuneWatch Extension
-
+  pod 'SwiftyJSON'
 end
