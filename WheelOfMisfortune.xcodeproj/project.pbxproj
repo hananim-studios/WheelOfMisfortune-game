@@ -10,6 +10,8 @@
 		3A33A16B85CE06A720B62E9E /* Pods_WheelOfMisfortune.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44285EB72BA48827562D468F /* Pods_WheelOfMisfortune.framework */; };
 		A6CDEB3EAE80E5FB490E85F9 /* Pods_WheelOfMisfortuneWatch_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B51EAB081B2C093AB6869E33 /* Pods_WheelOfMisfortuneWatch_Extension.framework */; };
 		B50D85416B9884D993C44857 /* Pods_WheelOfMisfortuneWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A60817218C781477C10ADC1 /* Pods_WheelOfMisfortuneWatch.framework */; };
+		C6C9E6A11DD1F980008EA720 /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C9E6A01DD1F980008EA720 /* ConnectionManager.swift */; };
+		C6C9E6A21DD211FE008EA720 /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C9E6A01DD1F980008EA720 /* ConnectionManager.swift */; };
 		D129F3DB1DD0AB1800C4CF8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D129F3DA1DD0AB1800C4CF8D /* AppDelegate.swift */; };
 		D129F3DD1DD0AB1800C4CF8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D129F3DC1DD0AB1800C4CF8D /* ViewController.swift */; };
 		D129F3E01DD0AB1800C4CF8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D129F3DE1DD0AB1800C4CF8D /* Main.storyboard */; };
@@ -81,6 +83,7 @@
 		8A60817218C781477C10ADC1 /* Pods_WheelOfMisfortuneWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WheelOfMisfortuneWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9AAD63AE785D8DDF45CC81E /* Pods-WheelOfMisfortuneWatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WheelOfMisfortuneWatch.release.xcconfig"; path = "Pods/Target Support Files/Pods-WheelOfMisfortuneWatch/Pods-WheelOfMisfortuneWatch.release.xcconfig"; sourceTree = "<group>"; };
 		B51EAB081B2C093AB6869E33 /* Pods_WheelOfMisfortuneWatch_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WheelOfMisfortuneWatch_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6C9E6A01DD1F980008EA720 /* ConnectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConnectionManager.swift; path = "WheelOfMisfortuneWatch Extension/ConnectionManager.swift"; sourceTree = "<group>"; };
 		D129F3D71DD0AB1800C4CF8D /* WheelOfMisfortune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WheelOfMisfortune.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D129F3DA1DD0AB1800C4CF8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D129F3DC1DD0AB1800C4CF8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -146,9 +149,18 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C6C9E6A31DD218D6008EA720 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C6C9E6A01DD1F980008EA720 /* ConnectionManager.swift */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
 		D129F3CE1DD0AB1800C4CF8D = {
 			isa = PBXGroup;
 			children = (
+				C6C9E6A31DD218D6008EA720 /* Shared */,
 				D129F3D91DD0AB1800C4CF8D /* WheelOfMisfortune */,
 				D129F3EF1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch */,
 				D129F3FE1DD0AB5000C4CF8D /* WheelOfMisfortuneWatch Extension */,
@@ -503,6 +515,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6C9E6A21DD211FE008EA720 /* ConnectionManager.swift in Sources */,
 				D129F3DD1DD0AB1800C4CF8D /* ViewController.swift in Sources */,
 				D1AB71AD1DD0BF630038BF0D /* Game.swift in Sources */,
 				D129F3DB1DD0AB1800C4CF8D /* AppDelegate.swift in Sources */,
@@ -517,6 +530,7 @@
 				D129F4061DD0AB5000C4CF8D /* NotificationController.swift in Sources */,
 				D1AB71B21DD0CA490038BF0D /* Card.swift in Sources */,
 				D1AB71AE1DD0BF750038BF0D /* Game.swift in Sources */,
+				C6C9E6A11DD1F980008EA720 /* ConnectionManager.swift in Sources */,
 				D129F4081DD0AB5000C4CF8D /* ComplicationController.swift in Sources */,
 				D129F4041DD0AB5000C4CF8D /* ExtensionDelegate.swift in Sources */,
 				D129F4021DD0AB5000C4CF8D /* InterfaceController.swift in Sources */,
