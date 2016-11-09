@@ -25,6 +25,10 @@ class ComplicationController: NSObject, CLKComplicationDataSource {
         handler(nil)
     }
     
+    func getNextRequestedUpdateDate(handler: @escaping (Date?) -> Void) {
+        handler(Date(timeIntervalSinceNow: 5))
+    }
+    
     func getPrivacyBehavior(for complication: CLKComplication, withHandler handler: @escaping (CLKComplicationPrivacyBehavior) -> Void) {
         handler(.showOnLockScreen)
     }
@@ -53,4 +57,17 @@ class ComplicationController: NSObject, CLKComplicationDataSource {
         handler(nil)
     }
     
+    func getPlaceholderTemplate(for complication: CLKComplication, withHandler handler: @escaping (CLKComplicationTemplate?) -> Void) {
+        
+        if complication.family == .circularSmall {
+            let template = CLKComplicationTemplateCircularSmallStackImage()
+            template.line1ImageProvider =  CLKImageProvider(onePieceImage: #imageLiteral(resourceName: "Complication/Circular"))
+            template.line2TextProvider = CLKSimpleTextProvider(text: "a", shortText: "bc")
+            handler(template)
+        }
+        handler(nil)
+        
+    }
 }
+    
+
