@@ -19,44 +19,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gandalf" translatesAutoresizingMaskIntoConstraints="NO" id="TeU-dN-nie">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="SXU-fY-UDG"/>
-                                    <constraint firstAttribute="height" constant="200" id="dMo-VX-5ff"/>
-                                </constraints>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aGw-rD-g3T">
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O32-Ln-hX7">
-                                <frame key="frameInset" minX="20" minY="686" width="100" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O32-Ln-hX7">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="4A9-kU-KT2"/>
                                     <constraint firstAttribute="height" constant="30" id="Lg3-7Q-0q2"/>
                                 </constraints>
-                                <state key="normal" title="No"/>
+                                <state key="normal" title="No">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="declineButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xFL-GW-LL1"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PU7-SF-mfM">
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="B5j-Re-z08">
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="5Ki-Yj-rqV">
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Moral" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZYr-yd-trT">
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UeO-xC-NPj">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="resource_moral" translatesAutoresizingMaskIntoConstraints="NO" id="UeO-xC-NPj">
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="54" id="WWo-AT-yHv"/>
                                                     <constraint firstAttribute="height" constant="54" id="x0N-z8-4Hl"/>
@@ -68,10 +57,10 @@
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Money" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ARa-o7-SWQ">
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="T8r-MG-QVe">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="resource_money" translatesAutoresizingMaskIntoConstraints="NO" id="T8r-MG-QVe">
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="54" id="Olc-Fn-Rhp"/>
                                                     <constraint firstAttribute="width" constant="54" id="fg8-0S-VXN"/>
@@ -83,10 +72,10 @@
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OXq-9u-w00">
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Tqj-Md-LoI">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="resource_order" translatesAutoresizingMaskIntoConstraints="NO" id="Tqj-Md-LoI">
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="54" id="VDq-f5-SjG"/>
                                                     <constraint firstAttribute="height" constant="54" id="fOQ-jd-45B"/>
@@ -98,10 +87,10 @@
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Power" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8pN-gh-BqG">
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="d67-EB-Q2n">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="resource_power" translatesAutoresizingMaskIntoConstraints="NO" id="d67-EB-Q2n">
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="54" id="3bx-ja-P3B"/>
                                                     <constraint firstAttribute="height" constant="54" id="Vlg-Pi-YOh"/>
@@ -116,26 +105,41 @@
                                     <constraint firstAttribute="height" constant="30" id="PjR-cJ-9ID"/>
                                     <constraint firstAttribute="width" constant="100" id="icQ-ac-aI8"/>
                                 </constraints>
-                                <state key="normal" title="Yes"/>
+                                <state key="normal" title="Yes">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="acceptButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ni7-qU-mk8"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gandalf" translatesAutoresizingMaskIntoConstraints="NO" id="TeU-dN-nie">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="220" id="SXU-fY-UDG"/>
+                                    <constraint firstAttribute="height" constant="262" id="dMo-VX-5ff"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PU7-SF-mfM">
+                                <color key="backgroundColor" red="0.1572473404255319" green="0.1572473404255319" blue="0.1572473404255319" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="B5j-Re-z08" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="0Jl-9A-WgD"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="PU7-SF-mfM" secondAttribute="leading" id="2pC-tg-y79"/>
-                            <constraint firstItem="O32-Ln-hX7" firstAttribute="top" secondItem="PU7-SF-mfM" secondAttribute="bottom" constant="19" id="Bwq-Iy-Mae"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="PU7-SF-mfM" secondAttribute="leading" constant="15" id="2pC-tg-y79"/>
+                            <constraint firstItem="TeU-dN-nie" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="58y-QZ-jW2"/>
+                            <constraint firstItem="O32-Ln-hX7" firstAttribute="top" secondItem="PU7-SF-mfM" secondAttribute="bottom" constant="8" id="Bwq-Iy-Mae"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Z0d-J3-p9X" secondAttribute="bottom" constant="20" id="Bwu-ag-in8"/>
                             <constraint firstItem="aGw-rD-g3T" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="CpO-E5-Btm"/>
-                            <constraint firstItem="O32-Ln-hX7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="6" id="Cug-gG-kaU"/>
+                            <constraint firstItem="O32-Ln-hX7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Cug-gG-kaU"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Z0d-J3-p9X" secondAttribute="trailing" id="I8c-H1-rQf"/>
                             <constraint firstAttribute="trailingMargin" secondItem="aGw-rD-g3T" secondAttribute="trailing" id="SNS-q7-fkm"/>
                             <constraint firstItem="TeU-dN-nie" firstAttribute="top" secondItem="aGw-rD-g3T" secondAttribute="bottom" constant="7.6666666666666572" id="WDo-XJ-S3b"/>
                             <constraint firstItem="B5j-Re-z08" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Y2B-hp-RNY"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="PU7-SF-mfM" secondAttribute="trailing" id="bfp-Z3-pfP"/>
-                            <constraint firstItem="TeU-dN-nie" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eeH-oP-7Iy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="PU7-SF-mfM" secondAttribute="trailing" constant="-16" id="bfp-Z3-pfP"/>
                             <constraint firstItem="PU7-SF-mfM" firstAttribute="top" secondItem="TeU-dN-nie" secondAttribute="bottom" constant="8" id="mJi-Lf-x30"/>
                             <constraint firstItem="aGw-rD-g3T" firstAttribute="top" secondItem="B5j-Re-z08" secondAttribute="bottom" constant="18.666666666666686" id="ocB-Db-vvL"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="O32-Ln-hX7" secondAttribute="bottom" constant="20" id="z1d-8g-Myi"/>
@@ -153,10 +157,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="155.07246376811597" y="147.55434782608697"/>
+            <point key="canvasLocation" x="153.75" y="146.83098591549296"/>
         </scene>
     </scenes>
     <resources>
         <image name="gandalf" width="400" height="390"/>
+        <image name="resource_money" width="1280" height="1025"/>
+        <image name="resource_moral" width="1280" height="1024"/>
+        <image name="resource_order" width="1280" height="1025"/>
+        <image name="resource_power" width="1280" height="1025"/>
     </resources>
 </document>

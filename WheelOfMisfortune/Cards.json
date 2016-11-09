@@ -3,6 +3,7 @@
               [
                {
                "title": "Queen",
+               "portrait": "queen",
                "text": "My Lord, i need to speak with you, it's about money, do you have time now? ",
                "declineActions": {
                "addMoral": -5,
@@ -24,6 +25,7 @@
                },
                {
                "title": "Queen",
+               "portrait": "queen",
                "text": "I went to the church, and God spoke to me, he asked me to make a campaign to raise money and help the poor.",
                "declineActions": {
                "addMoral": -25,
@@ -47,6 +49,7 @@
               [
                {
                "title": "Noble",
+               "portrait": "noble",
                "text": "Life is so boring these days.",
                "declineActions": {
                "addMoral": 0,
@@ -68,6 +71,7 @@
                },
                {
                "title": "Noble",
+               "portrait": "noble",
                "text": "We should throw a party. Only nobles and the military invited.",
                "declineActions": {
                "addMoral": 0,
@@ -90,7 +94,8 @@
                ],
               [
                {
-               "title": "Gipsy",
+               "title": "Gypsy",
+               "portrait": "gypsy1",
                "text": "Do you believe in Desitny?",
                "declineActions": {
                "addMoral": 5,
@@ -111,7 +116,8 @@
                }
                },
                {
-               "title": "Gipsy",
+               "title": "Gypsy",
+               "portrait": "gypsy1",
                "text": "Do you feel lucky? *flips Tarot card*",
                "declineActions": {
                "addMoral": 0,
@@ -132,7 +138,8 @@
                }
                },
                {
-               "title": "Gipsy",
+               "title": "Gypsy",
+               "portrait": "gypsy2",
                "text": "Your card is the Wheel of Fortune. You need to remain optimistic yourself, thinking positively and keeping as upbeat as possible. The Wheel also represents karma and reminds you that ‘what goes around comes around’.",
                "declineActions": {
                "addMoral": 0,
@@ -156,13 +163,14 @@
               [
                {
                "title": "Wizard",
+               "portrait": "wizard",
                "text": "Your mother is seriously ill, but i know how to cure her, do you trust me?",
                "declineActions": {
                "addMoral": 5,
                "addMoney": 0,
                "addOrder": -35,
                "addPower": 0,
-               "showRandomCard\n": ""
+               "showRandomCard": ""
                },
                "acceptActions": {
                "addMoral": -5,
@@ -177,13 +185,14 @@
                },
                {
                "title": "Wizard",
+               "portrait": "wizard",
                "text": "She's got the Grumpy Flu. The cure is to drink a cup of Dragon Scale Tea everyday, during 1 week. We need to hurry! she's dying of grumpiness!",
                "declineActions": {
                "addMoral": 10,
                "addMoney": 0,
                "addOrder": -20,
                "addPower": -15,
-               "showRandomCard\n": ""
+               "showRandomCard": ""
                },
                "acceptActions": {
                "addMoral": -10,
@@ -197,14 +206,15 @@
                }
                },
                {
-               "title": "Gipsy",
+               "title": "Gypsy",
+               "portrait": "gypsy1",
                "text": "I've got Dragon Scales for sale, do you want to buy it? It's a rare and expensive item.",
                "declineActions": {
                "addMoral": 15,
                "addMoney": 0,
                "addOrder": -50,
                "addPower": 0,
-               "showRandomCard\n": ""
+               "showRandomCard": ""
                },
                "acceptActions": {
                "addMoral": -15,
@@ -219,6 +229,97 @@
                },
                {
                "title": "Queen",
+               "portrait": "queen",
+               "text": "Sorry, my Lord, your mother died anyway.",
+               "declineActions": {
+               "addMoral": 0,
+               "addMoney": 0,
+               "addOrder": 0,
+               "addPower": 0,
+               "showRandomCard": ""
+               },
+               "acceptActions": {
+               "addMoral": 0,
+               "addMoney": 0,
+               "addOrder": 0,
+               "addPower": 0,
+               "showCard": [
+                            0,
+                            0
+                            ]
+               }
+               }
+               ],
+              [
+               {
+               "title": "Wizard",
+               "portrait": "wizard",
+               "text": "Your mother is seriously ill, but i know how to cure her, do you trust me?",
+               "declineActions": {
+               "addMoral": 5,
+               "addMoney": 0,
+               "addOrder": -35,
+               "addPower": 0,
+               "showRandomCard": ""
+               },
+               "acceptActions": {
+               "addMoral": -5,
+               "addMoney": -10,
+               "addOrder": 5,
+               "addPower": 0,
+               "showCard": [
+                            3,
+                            1
+                            ]
+               }
+               },
+               {
+               "title": "Wizard",
+               "portrait": "wizard",
+               "text": "She's got the Grumpy Flu. The cure is to drink a cup of Dragon Scale Tea everyday, during 1 week. We need to hurry! she's dying of grumpiness!",
+               "declineActions": {
+               "addMoral": 10,
+               "addMoney": 0,
+               "addOrder": -20,
+               "addPower": -15,
+               "showRandomCard": ""
+               },
+               "acceptActions": {
+               "addMoral": -10,
+               "addMoney": 0,
+               "addOrder": 15,
+               "addPower": 0,
+               "showCard": [
+                            3,
+                            2
+                            ]
+               }
+               },
+               {
+               "title": "Gypsy",
+               "portrait": "gypsy1",
+               "text": "I've got Dragon Scales for sale, do you want to buy it? It's a rare and expensive item.",
+               "declineActions": {
+               "addMoral": 15,
+               "addMoney": 0,
+               "addOrder": -50,
+               "addPower": 0,
+               "showRandomCard": ""
+               },
+               "acceptActions": {
+               "addMoral": -15,
+               "addMoney": -50,
+               "addOrder": 25,
+               "addPower": 0,
+               "showCard": [
+                            3,
+                            3
+                            ]
+               }
+               },
+               {
+               "title": "Queen",
+               "portrait": "queen",
                "text": "Sorry, my Lord, your mother died anyway.",
                "declineActions": {
                "addMoral": 0,

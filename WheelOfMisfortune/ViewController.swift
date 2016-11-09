@@ -63,6 +63,8 @@ class ViewController: UIViewController, GameDelegate, WatchConnectionManagerPhon
         self.moneyLabel.text = game.money.description
         self.orderLabel.text = game.order.description
         self.powerLabel.text = game.power.description
+        
+        self.portrait.image = UIImage(named: card.portrait)
     }
     
     // MARK: Interface Actions
