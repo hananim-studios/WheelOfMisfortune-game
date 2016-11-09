@@ -56,6 +56,8 @@ class Card {
     var title: String = "@Card_Title"
     var text: String = "@Card_Text"
     
+    var portrait: String = "gandalf"
+    
     var acceptActions: [CardAction] = []
     var declineActions: [CardAction] = []
     
@@ -83,6 +85,13 @@ class Card {
         
         if let text = json["text"].string {
             self.text = text
+        } else {
+            fatalError("Malformed JSON")
+        }
+        
+        // PORTRAIT
+        if let portrait = json["portrait"].string {
+            self.portrait = portrait
         } else {
             fatalError("Malformed JSON")
         }
