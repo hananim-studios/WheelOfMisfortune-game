@@ -45,12 +45,15 @@ class ViewController: UIViewController, GameDelegate, WatchConnectionManagerPhon
     
     func connectionManager(_ connectionManager: ConnectionManager, updatedWithResponse response: String) {
         DispatchQueue.main.async(execute: {
-           //TODO -- atualizar interface
             // response: String representa a resposta recebida do Watch - "0" (Não) ou "1" (Sim)
+            if response == "0" {
+                self.game?.declineCurrentCard()
+            } else {
+                self.game?.acceptCurrentCard()
+            }
+
         })
         
-        // Sends next information to watch
-        updateWatchApplicationContext(WithCardText: "Next Card", cardTitle: "Next Title", andAttributes: ["10", "12", "14", "50"])
     }
     
     
@@ -65,6 +68,8 @@ class ViewController: UIViewController, GameDelegate, WatchConnectionManagerPhon
         self.powerLabel.text = game.power.description
         
         self.portrait.image = UIImage(named: card.portrait)
+        
+        updateWatchApplicationContext(WithCardText: card.text, cardTitle: card.title, andAttributes: [game.money.description, game.money.description, game.order.description, game.power.description])
     }
     
     // MARK: Interface Actions

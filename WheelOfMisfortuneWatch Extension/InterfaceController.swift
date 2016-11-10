@@ -12,14 +12,18 @@ import WatchConnectivity
 
 class InterfaceController: WKInterfaceController, WatchConnectionManagerWatchDelegate {
 
+    @IBOutlet var yesButton: WKInterfaceButton!
+    @IBOutlet var noButton: WKInterfaceButton!
     @IBOutlet var titleLabel: WKInterfaceLabel!
     @IBOutlet var storyLabel: WKInterfaceLabel!
     @IBOutlet var moralAttributeLabel: WKInterfaceLabel!
     @IBOutlet var moneyAttributeLevel: WKInterfaceLabel!
     @IBOutlet var orderAttributeLabel: WKInterfaceLabel!
     @IBOutlet var powerAttributeLevel: WKInterfaceLabel!
-    
-    
+    @IBOutlet var moralImage: WKInterfaceImage!
+    @IBOutlet var moneyImage: WKInterfaceImage!
+    @IBOutlet var orderImage: WKInterfaceImage!
+    @IBOutlet var powerImage: WKInterfaceImage!
     
     var response = "-"
     
@@ -32,6 +36,8 @@ class InterfaceController: WKInterfaceController, WatchConnectionManagerWatchDel
     
     override func willActivate() {
         super.willActivate()
+        
+        
     }
     
     override func didDeactivate() {

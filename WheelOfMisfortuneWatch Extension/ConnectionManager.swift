@@ -15,6 +15,7 @@ protocol WatchConnectionManagerPhoneDelegate: class {
 
 protocol WatchConnectionManagerWatchDelegate: class {
     func connectionManager(_ connectionManager: ConnectionManager, updatedWithCardText text: String, cardTitle title: String, andAttributes attributes: [String])
+    //func connectionManager(_ connectionManager: ConnectionManager, sessionIsActive isActive: Bool)
 }
 
 class ConnectionManager: NSObject, WCSessionDelegate {
