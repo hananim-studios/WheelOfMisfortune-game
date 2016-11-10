@@ -244,7 +244,7 @@
                "addOrder": 0,
                "addPower": 0,
                "showCard": [
-                            0,
+                            4,
                             0
                             ]
                }
@@ -254,21 +254,21 @@
                {
                "title": "Wizard",
                "portrait": "wizard",
-               "text": "Your mother is seriously ill, but i know how to cure her, do you trust me?",
+               "text": "I've just had an amazing idea! Do you want to hear it, Majesty?",
                "declineActions": {
-               "addMoral": 5,
+               "addMoral": 10,
                "addMoney": 0,
-               "addOrder": -35,
+               "addOrder": -15,
                "addPower": 0,
                "showRandomCard": ""
                },
                "acceptActions": {
                "addMoral": -5,
-               "addMoney": -10,
-               "addOrder": 5,
+               "addMoney": 0,
+               "addOrder": 15,
                "addPower": 0,
                "showCard": [
-                            3,
+                            4,
                             1
                             ]
                }
@@ -276,43 +276,43 @@
                {
                "title": "Wizard",
                "portrait": "wizard",
-               "text": "She's got the Grumpy Flu. The cure is to drink a cup of Dragon Scale Tea everyday, during 1 week. We need to hurry! she's dying of grumpiness!",
+               "text": "I want to open a new Wizard's School! I want to teach people how to speak foreign languages. ",
                "declineActions": {
                "addMoral": 10,
                "addMoney": 0,
-               "addOrder": -20,
-               "addPower": -15,
+               "addOrder": -10,
+               "addPower": 0,
                "showRandomCard": ""
                },
                "acceptActions": {
-               "addMoral": -10,
+               "addMoral": -5,
                "addMoney": 0,
-               "addOrder": 15,
-               "addPower": 0,
+               "addOrder": 5,
+               "addPower": 5,
                "showCard": [
-                            3,
+                            4,
                             2
                             ]
                }
                },
                {
-               "title": "Gypsy",
-               "portrait": "gypsy1",
-               "text": "I've got Dragon Scales for sale, do you want to buy it? It's a rare and expensive item.",
+               "title": "Wizard",
+               "portrait": "wizard",
+               "text": "The students would pay a slightly expensive fee of 1000 gold coins per week. I would share the profit with you, Majesty. Do you trust me?",
                "declineActions": {
-               "addMoral": 15,
+               "addMoral": 5,
                "addMoney": 0,
-               "addOrder": -50,
-               "addPower": 0,
+               "addOrder": 5,
+               "addPower": -10,
                "showRandomCard": ""
                },
                "acceptActions": {
                "addMoral": -15,
-               "addMoney": -50,
-               "addOrder": 25,
-               "addPower": 0,
+               "addMoney": 35,
+               "addOrder": -15,
+               "addPower": 5,
                "showCard": [
-                            3,
+                            4,
                             3
                             ]
                }
@@ -320,12 +320,58 @@
                {
                "title": "Queen",
                "portrait": "queen",
-               "text": "Sorry, my Lord, your mother died anyway.",
+               "text": "How can i help the poor when you allow this crazy Wizard profit over them? Don't you fear God?",
+               "declineActions": {
+               "addMoral": -25,
+               "addMoney": 0,
+               "addOrder": -5,
+               "addPower": 10,
+               "showRandomCard": ""
+               },
+               "acceptActions": {
+               "addMoral": 10,
+               "addMoney": 0,
+               "addOrder": 5,
+               "addPower": 0,
+               "showCard": [
+                            4,
+                            4
+                            ]
+               }
+               },
+               {
+               "title": "Queen",
+               "portrait": "queen",
+               "text": "If you really do so, you should put an end to this and do some charity instead!",
+               "declineActions": {
+               "addMoral": -25,
+               "addMoney": 10,
+               "addOrder": -5,
+               "addPower": 10,
+               "showRandomCard": ""
+               },
+               "acceptActions": {
+               "addMoral": 15,
+               "addMoney": -45,
+               "addOrder": 15,
+               "addPower": -10,
+               "showCard": [
+                            0,
+                            0
+                            ]
+               }
+               }
+               ],
+              [
+               {
+               "title": "Noble",
+               "portrait": "noble",
+               "text": "I'm feeling so bored today. What about you, Majesty? Are you bored too? ",
                "declineActions": {
                "addMoral": 0,
                "addMoney": 0,
                "addOrder": 0,
-               "addPower": 0,
+               "addPower": -5,
                "showRandomCard": ""
                },
                "acceptActions": {
@@ -334,8 +380,74 @@
                "addOrder": 0,
                "addPower": 0,
                "showCard": [
-                            0,
-                            0
+                            5,
+                            1
+                            ]
+               }
+               },
+               {
+               "title": "Noble",
+               "portrait": "noble",
+               "text": "I think that if we were at war we wouldn't be so bored. We could build an Empire, pile up treasures... Let's tease the Kingdom of the South! We could start a war right now!  ",
+               "declineActions": {
+               "addMoral": 10,
+               "addMoney": 0,
+               "addOrder": 15,
+               "addPower": -5,
+               "showRandomCard": ""
+               },
+               "acceptActions": {
+               "addMoral": -10,
+               "addMoney": -35,
+               "addOrder": -10,
+               "addPower": 10,
+               "showCard": [
+                            5,
+                            2
+                            ]
+               }
+               },
+               {
+               "title": "Queen",
+               "portrait": "queen",
+               "text": "That's wonderful, my Lord! We would have even more money to make charity and help the poors!",
+               "declineActions": {
+               "addMoral": -10,
+               "addMoney": 5,
+               "addOrder": -10,
+               "addPower": 0,
+               "showRandomCard": ""
+               },
+               "acceptActions": {
+               "addMoral": 5,
+               "addMoney": -15,
+               "addOrder": 5,
+               "addPower": 0,
+               "showCard": [
+                            5,
+                            3
+                            ]
+               }
+               },
+               {
+               "title": "Gypsy",
+               "portrait": "gypsy2",
+               "text": "Remember, 'what comes around, goes around...' Are you sure you are going to profit over this?",
+               "declineActions": {
+               "addMoral": 10,
+               "addMoney": 35,
+               "addOrder": 10,
+               "addPower": -10,
+               "showRandomCard": ""
+               },
+               "acceptActions": {
+               "addMoral": 0,
+               "addMoney": -5,
+               "addOrder": -5,
+               "addPower": 10,
+               "showCard": [
+                            5,
+                            3
                             ]
                }
                }

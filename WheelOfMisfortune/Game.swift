@@ -38,7 +38,7 @@ class Game {
     }
     
     func showRandomCard() {
-
+    
     }
     
     func acceptCurrentCard() {
