@@ -30,25 +30,25 @@
                             <items>
                                 <group alignment="center" verticalAlignment="center" layout="vertical" id="gGf-VE-DhS">
                                     <items>
-                                        <imageView width="20" height="20" alignment="center" image="resource-1" contentMode="scaleAspectFit" id="WAy-6p-KzU"/>
+                                        <imageView width="20" height="20" alignment="center" image="recursosWatch-1" id="WAy-6p-KzU"/>
                                         <label alignment="center" verticalAlignment="bottom" text="0" id="6xc-4m-P4G"/>
                                     </items>
                                 </group>
                                 <group alignment="center" verticalAlignment="center" layout="vertical" id="hQg-M0-XNt">
                                     <items>
-                                        <imageView width="20" height="20" alignment="center" image="resource-2" contentMode="scaleAspectFit" id="8n2-rk-RXR"/>
+                                        <imageView width="20" height="20" alignment="center" image="recursosWatch-2" id="8n2-rk-RXR"/>
                                         <label alignment="center" verticalAlignment="bottom" text="0" id="sMT-HI-9u0"/>
                                     </items>
                                 </group>
                                 <group alignment="center" verticalAlignment="center" layout="vertical" id="xOY-PV-LYK">
                                     <items>
-                                        <imageView width="20" height="20" alignment="center" image="resource-3" contentMode="scaleAspectFit" id="ZFc-F0-4N4"/>
+                                        <imageView width="20" height="20" alignment="center" image="recursosWatch-3" id="ZFc-F0-4N4"/>
                                         <label alignment="center" verticalAlignment="bottom" text="0" id="A8P-ln-5E7"/>
                                     </items>
                                 </group>
                                 <group alignment="center" verticalAlignment="center" layout="vertical" id="ced-Ic-EoU">
                                     <items>
-                                        <imageView width="20" height="20" alignment="center" image="resource-4" contentMode="scaleAspectFit" id="hF6-Kf-N48"/>
+                                        <imageView width="20" height="20" alignment="center" image="recursosWatch-4" id="hF6-Kf-N48"/>
                                         <label alignment="center" verticalAlignment="bottom" text="0" id="rJB-Ho-4rj"/>
                                     </items>
                                 </group>

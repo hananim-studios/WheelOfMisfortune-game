@@ -339,17 +339,17 @@
 				TargetAttributes = {
 					D129F3D61DD0AB1800C4CF8D = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = FWD9V5VYJ2;
+						DevelopmentTeam = GRKYXDG5QL;
 						ProvisioningStyle = Automatic;
 					};
 					D129F3ED1DD0AB5000C4CF8D = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = FWD9V5VYJ2;
+						DevelopmentTeam = GRKYXDG5QL;
 						ProvisioningStyle = Automatic;
 					};
 					D129F3F91DD0AB5000C4CF8D = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = FWD9V5VYJ2;
+						DevelopmentTeam = GRKYXDG5QL;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -702,7 +702,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = FWD9V5VYJ2;
+				DEVELOPMENT_TEAM = GRKYXDG5QL;
 				INFOPLIST_FILE = WheelOfMisfortune/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hananim-studios.WheelOfMisfortune";
@@ -717,7 +717,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = FWD9V5VYJ2;
+				DEVELOPMENT_TEAM = GRKYXDG5QL;
 				INFOPLIST_FILE = WheelOfMisfortune/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hananim-studios.WheelOfMisfortune";
@@ -732,7 +732,8 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				DEVELOPMENT_TEAM = FWD9V5VYJ2;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = GRKYXDG5QL;
 				INFOPLIST_FILE = "WheelOfMisfortuneWatch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hananim-studios.WheelOfMisfortune.watchkitapp.watchkitextension";
@@ -751,7 +752,8 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				DEVELOPMENT_TEAM = FWD9V5VYJ2;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = GRKYXDG5QL;
 				INFOPLIST_FILE = "WheelOfMisfortuneWatch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hananim-studios.WheelOfMisfortune.watchkitapp.watchkitextension";
@@ -770,7 +772,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = FWD9V5VYJ2;
+				DEVELOPMENT_TEAM = GRKYXDG5QL;
 				IBSC_MODULE = WheelOfMisfortuneWatch_Extension;
 				INFOPLIST_FILE = WheelOfMisfortuneWatch/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hananim-studios.WheelOfMisfortune.watchkitapp";
@@ -789,7 +791,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = FWD9V5VYJ2;
+				DEVELOPMENT_TEAM = GRKYXDG5QL;
 				IBSC_MODULE = WheelOfMisfortuneWatch_Extension;
 				INFOPLIST_FILE = WheelOfMisfortuneWatch/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hananim-studios.WheelOfMisfortune.watchkitapp";

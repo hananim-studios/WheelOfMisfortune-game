@@ -44,9 +44,10 @@ class ViewController: UIViewController, GameDelegate, WatchConnectionManagerPhon
     // MARK: WatchConnectivityManagerDelegate
     
     func connectionManager(_ connectionManager: ConnectionManager, updatedWithResponse response: String) {
+
         DispatchQueue.main.async(execute: {
             // response: String representa a resposta recebida do Watch - "0" (Não) ou "1" (Sim)
-            if response == "0" {
+            if response.characters.first == "0" {
                 self.game?.declineCurrentCard()
             } else {
                 self.game?.acceptCurrentCard()
@@ -69,7 +70,7 @@ class ViewController: UIViewController, GameDelegate, WatchConnectionManagerPhon
         
         self.portrait.image = UIImage(named: card.portrait)
         
-        updateWatchApplicationContext(WithCardText: card.text, cardTitle: card.title, andAttributes: [game.money.description, game.money.description, game.order.description, game.power.description])
+        updateWatchApplicationContext(WithCardText: card.text, cardTitle: card.title, andAttributes: [game.moral.description, game.money.description, game.order.description, game.power.description])
     }
     
     // MARK: Interface Actions

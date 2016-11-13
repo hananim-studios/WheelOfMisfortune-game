@@ -25,10 +25,6 @@ class InterfaceController: WKInterfaceController, WatchConnectionManagerWatchDel
     @IBOutlet var orderImage: WKInterfaceImage!
     @IBOutlet var powerImage: WKInterfaceImage!
     
-    var response = "-"
-    
-    
-    
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         ConnectionManager.sharedConnectionManager.delegate = self
@@ -59,15 +55,16 @@ class InterfaceController: WKInterfaceController, WatchConnectionManagerWatchDel
     }
     
     // MARK: Interface Actions
-
+    
+    var i = 0
     @IBAction func noButtonPressed() {
-        response = "0"
-        updateInterfaceApplicationContext(WithResponse: response)
+        i += 1
+        updateInterfaceApplicationContext(WithResponse: "0 - \(i)")
         
     }
     @IBAction func yesButtonPressed() {
-        response = "1"
-        updateInterfaceApplicationContext(WithResponse: response)
+        i += 1
+        updateInterfaceApplicationContext(WithResponse: "1 - \(i)")
     }
     
     // MARK: Convenience

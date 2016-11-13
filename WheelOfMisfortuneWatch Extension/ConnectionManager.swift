@@ -43,7 +43,7 @@ class ConnectionManager: NSObject, WCSessionDelegate {
         //Configura iOS Interface com dados do Context (usar delegate)
             guard let response = applicationContext["response"] as? String else {
                 //Standard response in case of expected values are unavailable in `applicationContext`
-                delegate?.connectionManager(self, updatedWithResponse: "-")
+                //delegate?.connectionManager(self, updatedWithResponse: "-")
                 return
             }
             delegate?.connectionManager(self, updatedWithResponse: response)
@@ -51,7 +51,7 @@ class ConnectionManager: NSObject, WCSessionDelegate {
         #if os(watchOS)
         //Configura Watch Interface com dados do Context (usar delegate)
             guard let text = applicationContext["text"] as? String, let title = applicationContext["title"] as? String, let attributes = applicationContext["attributes"] as? [String] else {
-                delegate?.connectionManager(self, updatedWithCardText: "-", cardTitle: "-", andAttributes: ["-"])
+                //delegate?.connectionManager(self, updatedWithCardText: "-", cardTitle: "-", andAttributes: ["-"])
                 return
             }
             delegate?.connectionManager(self, updatedWithCardText: text, cardTitle: title, andAttributes: attributes)
